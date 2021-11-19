@@ -1,1 +1,1822 @@
-[{"Full name": "donnemartin/system-design-primer", "Description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.", "Language": "Python", "Topics": ["programming", "development", "design", "design-system", "system", "design-patterns", "web", "web-application", "webapp", "python", "interview", "interview-questions", "interview-practice"]}, {"Full name": "yangshun/tech-interview-handbook", "Description": "💯 Curated interview preparation materials for busy engineers", "Language": "JavaScript", "Topics": ["interview-questions", "coding-interviews", "interview-practice", "interview-preparation", "algorithm", "algorithms", "hacktoberfest"]}, {"Full name": "kdn251/interviews", "Description": "Everything you need to know to get the job.", "Language": "Java", "Topics": ["java", "interview", "interview-questions", "interview-practice", "interview-preparation", "interview-prep", "algorithm", "algorithm-challenges", "algorithms", "algorithm-competitions", "technical-coding-interview", "leetcode", "leetcode-solutions", "leetcode-java", "coding-interviews", "coding-interview", "coding-challenge", "coding-challenges", "leetcode-questions", "interviews"]}, {"Full name": "DopplerHQ/awesome-interview-questions", "Description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ", "Language": null, "Topics": ["awesome-list", "awesomeness", "interview-questions", "interviewing", "interview-practice", "ruby", "javascript", "awesome", "list", "python-interview-questions", "rails-interview", "javascript-interview-questions", "angularjs-interview-questions", "android-interview-questions"]}, {"Full name": "binhnguyennus/awesome-scalability", "Description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems", "Language": null, "Topics": ["system-design", "backend", "scalability", "interview", "architecture", "devops", "design-patterns", "interview-questions", "awesome-list", "big-data", "awesome", "resources", "lists", "web-development", "programming", "system", "interview-practice", "computer-science", "distributed-systems", "machine-learning"]}, {"Full name": "donnemartin/interactive-coding-challenges", "Description": "120+ interactive Python coding interview challenges (algorithms and data structures).  Includes Anki flashcards.", "Language": "Python", "Topics": ["python", "algorithm", "data-structure", "development", "programming", "coding", "interview", "interview-questions", "interview-practice", "competitive-programming"]}, {"Full name": "huihut/interview", "Description": "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendation, etc.", "Language": "C++", "Topics": ["interview", "interview-questions", "interview-practice", "interview-preparation", "interviews", "c", "cpp", "algorithm", "database", "data-structures", "stl", "operating-system", "leetcode"]}, {"Full name": "chefyuan/algorithm-base", "Description": "专门为刚开始刷题的同学准备的算法基地，没有最细只有更细，立志用动画将晦涩难懂的算法说的通俗易懂！", "Language": "Java", "Topics": ["leetcode", "offer", "algorithms", "base", "programmers", "interview-questions", "interview-practice", "java"]}, {"Full name": "MindorksOpenSource/android-interview-questions", "Description": "Your Cheat Sheet For Android Interview - Android Interview Questions", "Language": "Java", "Topics": ["cheatsheet", "cheat-sheets", "android", "android-interview-practice", "android-interview-questions", "android-interview", "interview-questions", "interview-practice", "interview-prep"]}, {"Full name": "twowaits/SDE-Interview-Questions", "Description": "Most comprehensive list :clipboard: of tech interview questions :blue_book: of companies scraped from Geeksforgeeks, CareerCup and Glassdoor. ", "Language": "Java", "Topics": ["data-structures", "algorithm", "geeksforgeeks", "glassdoor", "careercup", "coding-interviews", "coding-interview", "interview-practice", "interview-preparation", "interview-questions", "interview-prep"]}, {"Full name": "mandliya/algorithms_and_data_structures", "Description": "180+ Algorithm & Data Structure Problems using C++", "Language": "C++", "Topics": ["algorithm", "c", "cpp", "interview-questions", "interview-practice", "data-structures", "datastructures", "c-plus-plus", "bit-manipulation", "tree", "leetcode-solutions", "leetcode", "string-manipulation"]}, {"Full name": "teivah/algodeck", "Description": "An Open-Source Collection of 200+ Algorithmic Flash Cards to Help you Preparing your Algorithm & Data Structure Interview 💯", "Language": null, "Topics": ["algorithms", "data-structures", "array", "bit-manipulation", "complexity", "dynamic-programming", "graph", "greedy-algorithms", "hashtable", "heap", "linked-list", "math", "queue", "recursion", "sorting-algorithms", "stack", "tree", "interview-practice", "algorithm", "java"]}, {"Full name": "JsonChao/Awesome-Android-Interview", "Description": ":fire: A awesome  android expert interview questions and answers（continuous updating ...）", "Language": null, "Topics": ["android", "interview", "java", "interview-questions", "cheatsheet", "cheatsheets", "android-interview-practice", "android-interview", "interview-practice", "interview-preparation", "interview-prep"]}, {"Full name": "kennymkchan/interview-questions-in-javascript", "Description": "A mostly reasonable collection of technical software development interview questions solved in Javascript", "Language": null, "Topics": ["interview-questions", "javascript", "stack", "recursion", "strings", "array", "interview-practice", "interviews"]}, {"Full name": "NotFound9/interviewGuide", "Description": "《大厂面试指北》——包括Java基础、JVM、数据库、mysql、redis、计算机网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。最佳阅读地址：http://notfound9.github.io/interviewGuide/", "Language": "Java", "Topics": ["interview-questions", "java", "redis", "star", "jvm", "mysql", "interview", "algorithms", "spring", "backend", "leetcode", "leetcode-java", "data-structures", "interview-practice", "interviews", "system-design", "interview-preparation", "guide", "code-interview", "java-interview"]}, {"Full name": "AweiLoveAndroid/CommonDevKnowledge", "Description": ":octocat::fire: :star2::star::star::star: :star:  史上最全的BAT大厂Android面试题汇集，以及常用的Android开发的一些技能点，冷门知识点汇总，开发中遇到的坑汇总等干货。", "Language": "Java", "Topics": ["java", "android", "interview", "interview-questions", "interview-practice", "interviews", "offer"]}, {"Full name": "kamyu104/LeetCode-Solutions", "Description": "🏋️ (Weekly Update) Python / Modern C++ Solutions of All 2076 LeetCode Problems", "Language": "C++", "Topics": ["leetcode", "python", "cpp", "algorithm", "data-structure", "cpp11", "leetcode-solutions", "interview-questions", "interview-preparation", "interview-practice", "leetcode-cpp", "modern-cpp", "leetcode-python"]}, {"Full name": "forthespada/InterviewGuide", "Description": "「InterviewGuide」一个收录优质计算机校招、社招面试常见面试题的仓库🔥🔥，以前叫做《逆袭进大厂》。目前已收录 C/C++ 、操作系统、数据结构、计算机网络、MySQL、Redis等面试资料,未来打算继续收录Java、Python、Go等面试常见问题，坚持将此仓库维护下去。", "Language": null, "Topics": ["cpp", "java", "os", "interview", "interview-questions", "interview-preparation", "redis", "mysql", "system", "questions-and-answers", "guide", "data-structures-and-algorithms", "interview-practice", "pdf", "code"]}, {"Full name": "SharingSource/LogicStack-LeetCode", "Description": "公众号「宫水三叶的刷题日记」刷穿 LeetCode 系列文章源码", "Language": null, "Topics": ["leetcode", "algorithm", "offer", "interview-questions", "interview-practice", "programmers"]}, {"Full name": "joowani/binarytree", "Description": "Python Library for Studying Binary Trees", "Language": "Python", "Topics": ["python", "python3", "python2", "python-3", "python-2", "python-library", "binary-trees", "binary-tree", "interview-practice", "interview", "learning", "practise", "algorithm", "data-structures", "data-structure", "heap", "heaps", "bst", "binary-search-tree"]}, {"Full name": "Awesome-Interview/Awesome-Interview", "Description": "Collection of awesome interview references.", "Language": null, "Topics": ["interview", "interview-preparation", "interview-practice", "interviews", "interview-prep", "backend", "frontend", "cpp", "java", "python", "machine-learning", "deep-learning", "ios", "android"]}, {"Full name": "FreeTymeKiyan/LeetCode-Sol-Res", "Description": "Clean, Understandable Solutions and Resources for LeetCode Online Judge Algorithm Problems. ", "Language": "Java", "Topics": ["leetcode", "java", "review", "interview", "coding-interviews", "interview-questions", "interview-practice", "interview-preparation", "algorithm", "algorithms"]}, {"Full name": "alexgurr/react-coding-challenges", "Description": "A series of ReactJS coding challenges with a variety of difficulties. ", "Language": "SCSS", "Topics": ["coding-challenges", "javascript", "react", "reactjs", "app", "interview-practice", "interview", "react-coding-challenges", "challenge", "interviews", "exercises", "candidates"]}, {"Full name": "mre/the-coding-interview", "Description": "Programming exercises, code katas and puzzles for your job interview training - or just for fun.", "Language": "Python", "Topics": ["interview-practice", "interview-test-task", "language-learning", "coding-interview"]}, {"Full name": "puncsky/system-design-and-architecture", "Description": "Learn how to design large-scale systems. Prep for the system design interview.", "Language": null, "Topics": ["architecture", "interview", "design", "design-patterns", "web", "interview-questions", "interview-practice", "development", "design-system", "system-design"]}, {"Full name": "yuzhoujr/leetcode", "Description": "👏🏻 leetcode solutions for Humans™", "Language": "Python", "Topics": ["leetcode", "algorithm", "google", "python", "interview", "interview-questions", "interview-practice", "interview-preparation", "interview-test", "algorithms", "algorithm-challenges", "algorithms-datastructures", "algiorithimcs", "algorithms-and-data-structures", "algorithm-competitions", "leetcode-solutions", "leetcode-python", "python-leetcode"]}, {"Full name": "arpankg/ctci-python-solutions", "Description": "Cracking the Coding Interview in Python 3. The solutions all have detailed explanations with visuals.", "Language": null, "Topics": ["cracking-the-coding-interview", "interview-questions", "interview-preparation", "interview-practice", "python3", "python", "gayle-laakmann-mcdowell"]}, {"Full name": "marcosfede/algorithms", "Description": "Solved algorithms and data structures problems in many languages", "Language": "Python", "Topics": ["algorithm", "python", "ruby", "golang", "go", "javascript", "competitive-programming", "data-structures", "interview", "interview-practice", "language", "bfs", "heap", "graph", "hacktoberfest"]}, {"Full name": "liuyubobobo/Play-with-Algorithm-Interview", "Description": "Codes of my MOOC Course <Play with Algorithm Interviews>. Updated contents and practices are also included. 我在慕课网上的课程《玩儿转算法面试》示例代码。课程的更多更新内容及辅助练习也将逐步添加进这个代码仓。", "Language": "C++", "Topics": ["algorithms", "interview-questions", "interview-practice", "leetcode", "imooc", "mooc"]}, {"Full name": "bcherny/frontend-interview-questions", "Description": "Answers for https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)", "Language": "JavaScript", "Topics": ["javascript", "interview-questions", "interview-practice", "frontend"]}, {"Full name": "connor11528/cs-fundamentals", "Description": "🎓 Data structures and algorithms ", "Language": "JavaScript", "Topics": ["interview-questions", "coding-interviews", "interview-practice", "interview", "programming-challenge", "programming-challenges", "interview-preparation", "interviews", "coding-challenge", "coding-challenges", "coding-interview", "codingame", "coding", "interview-prep", "programming", "job-board", "jobseeker", "job-interviews", "jobsearch", "job-hunting"]}, {"Full name": "dashvlas/awesome-ios-interview", "Description": "📲 The curated list of iOS Developer interview questions and answers, Swift & Objective-C", "Language": null, "Topics": ["ios", "swift", "developer-tools", "interview-questions", "objective-c", "xcode", "macos", "interview-practice", "interview-preparation", "ios-interview", "awesome-list", "awesome-ios", "ios-sdk", "ios11", "ios-swift", "interview", "interview-test-task", "interview-answers"]}, {"Full name": "onthecodepath/iOS-Interview-Questions", "Description": "A curated list of iOS interview questions and answers", "Language": null, "Topics": ["objective-c", "interview-questions", "swift", "ios", "interview-practice"]}, {"Full name": "kamyu104/LintCode", "Description": "📝 C++11 Solutions of All 289 LintCode Problems (No More Updates) ", "Language": "C++", "Topics": ["lintcode", "cpp", "algorithm", "data-structure", "cpp11", "interview-questions", "interview-preparation", "interview-practice"]}, {"Full name": "rampatra/Algorithms-and-Data-Structures-in-Java", "Description": "Algorithms and Data Structures in Java", "Language": "Java", "Topics": ["java", "algorithm", "interview", "datastructures", "data-structures", "hackerrank", "geeksforgeeks", "interview-practice", "interview-preparation", "java-8", "cracking-the-coding-interview", "cracking-the-technical-interview", "cracking-code-interview", "coding-interview", "algorithms", "algorithms-and-data-structures", "blockchain", "blockchain-demo", "blockchain-java", "leetcode"]}, {"Full name": "Just-A-Visitor/Algorithmic-Pseudocode", "Description": "This repository contains the pseudocode(pdf) of various algorithms and data structures necessary for Interview Preparation and Competitive Coding", "Language": "TeX", "Topics": ["algorithms", "pseudocode", "data-structures", "algorithms-and-data-structures", "interview-questions", "interview-preparation", "leetcode", "interviews", "interview-practice", "coding-interviews", "latex", "hacktoberfest"]}, {"Full name": "alirezadir/machine-learning-interview-enlightener", "Description": "This repo is meant to serve as a guide for Machine Learning/AI technical interviews. ", "Language": "Jupyter Notebook", "Topics": ["machine-learning", "machine-learning-algorithms", "ai", "deep-learning", "system-design", "scalable-applications", "interview", "interview-preparation", "interview-practice", "interviews"]}, {"Full name": "aershov24/full-stack-interview-questions", "Description": "🔴 More than ~3877 Full Stack, Coding & System Design Interview Questions And Answers sourced from all around the Internet to help you to prepare to an interview, conduct one, mock your lead dev or completely ignore. Find more questions and answers on 👉  ", "Language": null, "Topics": ["full-stack", "full-stack-development", "full-stack-web-developer", "angular", "react", "vuejs", "interview-questions", "interview-practice", "interview-preparation", "interview-test"]}, {"Full name": "omonimus1/competitive-programming", "Description": "My competitive programming guide,reading materials, link to system and design interview preparation and my own coding solutions from Codechef, Leetcode,Geeks for Geeks, HackerRank , spoj, codesignal, codebyte, codeblocks and other online judges", "Language": "C++", "Topics": ["algorithms-and-data-structures", "cpp", "algorithm", "data-structures", "tutorial", "python", "hackerrank-solutions", "codechef-solutions", "competitve-programming", "competitive-programming-contests", "geeksforgeeks-solutions", "competitive-programming-notes", "interview-practice", "leetcode-solutions", "leet", "leetcode-cpp", "interview-preparation"]}, {"Full name": "stacygohyunsi/algorithms-primer", "Description": "A consolidated collection of resources for you to learn and understand algorithms and data structures easily. ", "Language": null, "Topics": ["algorithm", "data-structures", "knapsack-problem", "queues", "stacks", "greedy-algorithm", "sort", "sorting-algorithms", "bubble-sort", "linear-search", "merge-sort", "quicksort-algorithm", "big-o", "dynamic-programming", "linked-list", "interview-practice", "interview-questions"]}, {"Full name": "khan4019/angular-interview-questions", "Description": "Most extensive Angular interview questions based on your level.", "Language": "HTML", "Topics": ["angular-interview-questions", "angular", "angular2", "angular4", "angular-material", "interview-questions", "interview-preparation", "front-end-interview", "interview-practice", "angular-cli", "angular-components", "angular-material2"]}, {"Full name": "karansaxena/STL_Cheat_Sheets", "Description": "C++ STL Cheat Sheets.", "Language": null, "Topics": ["cpp", "stl", "coding", "codechef", "hackerearth", "hackerrank", "topcoder", "codeforces", "c", "c-plus-plus", "cheatsheet", "cheat-sheets", "lists", "interview", "interview-preparation", "interview-practice", "interviewbit", "leetcode"]}, {"Full name": "sid24rane/System-Design-Interview-Questions", "Description": "A curated list of System Design interview questions for SDE-1 (Experienced),SDE-2 and above.", "Language": null, "Topics": ["interview", "interview-preparation", "interview-questions", "interview-practice", "system-design", "system-design-questions"]}, {"Full name": "DivyaGodayal/CoderChef-Kitchen", "Description": "The official repository for our programming kitchen which consists of 50+ delicious programming recipes having all the interesting ingredients ranging from dynamic programming, graph theory, linked lists and much more. All the articles contain beautiful images and some gif/video at times to help clear important concepts.", "Language": "Python", "Topics": ["leetcode", "programming", "python", "java", "interview-questions", "interview-practice", "interview-preparation", "interview", "editorial", "blogging", "datastructure", "algorithm", "dynamic-programming", "greedy-algorithms", "linked-list", "graph", "trees", "string", "100daysofcode", "codenewbie"]}, {"Full name": "JiayangWu/LeetCode-Python", "Description": "LeetCode solutions in Python2. LeetCode题解 in Python2。", "Language": "Python", "Topics": ["leetcode", "leetcode-solutions", "python2", "chinese", "interview-questions", "interview-questions-solved", "interview-preparation", "interview-practice", "algorithm-challenges", "algorithms", "leetcode-python", "leetcode-practice"]}, {"Full name": "brndnmtthws/cracking-the-coding-interview-rust", "Description": "Cracking the Coding Interview problem solutions in Rust", "Language": "Rust", "Topics": ["cracking-the-coding-interview", "interview-questions", "interview-practice", "rust", "rust-lang", "twitch", "youtube", "learn-to-code"]}, {"Full name": "MahdiMashrur/Awesome-Coding-Interview-Question-Patterns", "Description": "The most common question-patterns for any coding-interview", "Language": null, "Topics": ["interview-questions", "coding-interviews", "interview-preparation", "interview-practice", "patterns", "cheatsheet", "algorithms", "data-structures", "algorithms-and-data-structures", "awesome", "awesome-list", "awesome-lists", "awesome-interview-questions", "interview-prep", "software-engineering", "interview", "interview-test", "google-interview", "amazon-interview"]}, {"Full name": "n3a9/google-foobar", "Description": "My Google Foo Bar Challenges 🤓 🧮", "Language": "Java", "Topics": ["google", "foobar", "interview-practice", "interview-questions"]}, {"Full name": "warycat/rustgym", "Description": "Leetcode Solutions in Rust, Advent of Code Solutions in Rust and more", "Language": "Rust", "Topics": ["leetcode", "rust", "solutions", "macros", "leetcode-rust", "algorithm", "interview", "interview-questions", "interview-preparation", "interview-practice", "trie", "leetcode-solutions", "graph", "tutorial", "hackerrank", "hackerrank-solutions", "advent-of-code"]}, {"Full name": "AlgorithmCrackers/Interview-Questions", "Description": "List of all the Interview questions practiced from online resources and books", "Language": "Java", "Topics": ["interview-questions", "interview-preparation", "interview-practice", "interviews", "interview", "data-structures", "datastructures", "algorithm", "algorithm-challenges", "linked-list", "stack", "queue", "tree", "graph", "oop", "sorting-algorithms", "sort"]}, {"Full name": "thundergolfer/interview-with-python", "Description": "The ultimate in python interview preparation and coding practice.", "Language": "Python", "Topics": ["study-aid", "problem-solving", "interview-practice", "interviewing"]}, {"Full name": "Java-aid/Interview-Preparations", "Description": "This repository contains coding assessments and their solutions for various IT companies", "Language": "Java", "Topics": ["javaaid", "interview-questions", "hackerrank", "hackerrank-test", "online-test", "interview-practice", "interview-prep", "kanahaiya", "kanhaiya", "java-aid", "solutions", "questions", "hackerearth", "coding-interviews", "interview-preparation", "java", "github", "techgig", "goldmansachs", "solution"]}, {"Full name": "harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI", "Description": "Javascript solutions to Cracking the Coding Interview (CTCI)", "Language": "JavaScript", "Topics": ["cracking-the-coding-interview", "ctci", "interview-questions", "interview-practice", "interview-prep", "javascript", "mocha", "chai", "es6", "tdd", "js", "interviewing"]}, {"Full name": "lesywix/oh-my-python", "Description": "剑指offer（python版）/ 算法图解 / python基础 / 数据结构", "Language": "Python", "Topics": ["python", "algorithm", "data-structures", "interview-practice"]}, {"Full name": "srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore", "Description": "Solutions of Data Structures and Algorithms in Java 2nd Edition by Robert Lafore. Adding practice problems and solutions.", "Language": "Java", "Topics": ["algorithm", "java", "data-structures", "algorithm-challenges", "linked-list", "array", "stack", "queues", "sorting-algorithms", "recursion", "programming-practices", "robert-lafore", "graphs", "shell-sort", "interview-questions", "interview-practice", "interview-preparation", "interview-test", "hacktoberfest", "programming-practice"]}, {"Full name": "samgh/Byte-by-Byte-Solutions", "Description": "Coding interview questions and solutions", "Language": "Java", "Topics": ["interview-questions", "interview-practice", "interview", "interview-prep", "cracking-the-coding-interview", "leetcode", "bytebybyte"]}, {"Full name": "gdutxiaoxu/AndroidGuide", "Description": "「Android学习+面试指南」一份涵盖大部分 Android 程序员所需要掌握的核心知识。准备 Android 面试，首选 AndroidGuide！公众号程序员徐公", "Language": null, "Topics": ["interview-questions", "interview", "interview-practice", "android", "android-notes", "android-learning"]}, {"Full name": "r1cc4rdo/daily_coding_problem", "Description": "Solutions to https://dailycodingproblem.com", "Language": "Python", "Topics": ["interview-questions", "interview-preparation", "interview-practice", "coding-interviews", "coding-challenges", "daily-coding-problem", "dailycodingproblem"]}, {"Full name": "javadhme/android-interview-questions", "Description": "Android interview questions with answers. This repo is suitable for an interviewer, interviewee, and for everyone who wants to improve their knowledge skills about android topics.", "Language": null, "Topics": ["android-interview", "android-interview-practice", "android-interview-question", "android-interviews", "interview-questions", "interview-preparation", "interview-practice", "interview-prep"]}, {"Full name": "rongweihe/CPPNotes", "Description": "【C++ 面试 + C++ 学习指南】 一份涵盖大部分 C++ 程序员所需要掌握的核心知识。", "Language": "C++", "Topics": ["cpp", "pdf", "code", "guide", "interview", "interview-practice", "interview-questions", "question-answering", "questions-and-answers", "interview-preparation", "data-structures-and-algorithms", "linux"]}, {"Full name": "yubinbai/leetcode", "Description": " Solutions to Leetcode Online Judge", "Language": "Java", "Topics": ["interview", "interview-practice"]}, {"Full name": "rongweihe/CS_Offer", "Description": "后台开发基础知识总结（春招/秋招）", "Language": null, "Topics": ["interview", "cpp", "programming-language", "datastructures", "algorithms", "mysql", "computer-science", "linux", "os", "operating-system", "interview-questions", "interview-project", "interview-practice"]}, {"Full name": "shihsyun/codility_lessons", "Description": "Codility Lesson1~Lesson17 100% solutions with Python3  除正確解答外comment裡有解題的思考過程", "Language": "Python", "Topics": ["python", "python3", "py3", "algorithms", "algorithms-datastructures", "algorithm-challenge", "coding-challenge", "coding-interviews", "codility-lessons-exercises", "codility-python", "interview", "interview-questions", "interview-practice", "interview-test"]}, {"Full name": "oleg-koval/counter-interview.dev", "Description": "a collaborative collection of interview questions collected from both sides of the game: Interviewer(s) and Interviewee.", "Language": "CSS", "Topics": ["interview", "interview-questions", "interview-practice", "interviews", "interview-preparation", "work", "jobsearch", "jobseeker", "interviewer", "interviewee", "collaborative", "collaborative-research", "collaborative-project", "collection", "awesome", "awesome-list", "collaborative-editing", "collaborative-learning", "collaborative-writing", "hacktoberfest"]}, {"Full name": "DenisLitvin/iOS-Interview", "Description": "📚 Comprehensive list of questions and problems to pass an interview for the iOS Developer position", "Language": "Swift", "Topics": ["interview", "interview-preparation", "interview-practice", "interview-questions", "ios-interview", "swift", "objcective-c", "interview-test"]}, {"Full name": "charulagrl/data-structures-and-algorithms", "Description": "Python implementation of common algorithms and data structures interview questions", "Language": "Python", "Topics": ["algorithms", "datastructures", "data-structures", "interview-questions", "interview-practice"]}, {"Full name": "yanglr/leetcode-ac", "Description": ":octocat: leetcode-ac | LeetCode AC solutions | LeetCode+剑指offer+程序员面试金典careerup(cc189)", "Language": "C++", "Topics": ["leetcode", "algorithm", "leetcode-ac", "datastructures-algorithms", "cpp11", "easy-to-understand", "modern-cpp", "leetcode-solutions", "leetcode-java", "leetcode-csharp", "leetcode-python3", "interview-practice", "interview-questions", "interview-preparation", "leetcode-problems-solutions", "leetcode-problems", "awesome-leetcode", "91algo", "leetcode-solutions-csharp"]}, {"Full name": "Gauthamjm007/Backend-NodeJS-Golang-Interview_QA", "Description": "A collection of Node JS and Golang Backend interview questions please feel free to fork and contribute to this repository", "Language": "JavaScript", "Topics": ["node-js", "callback-hells", "interview-questions", "interview-practice", "questions-and-answers", "expressjs", "mongodb", "express-js", "mongoose", "golang", "go"]}, {"Full name": "mohammedjasam/Technical-Interview-Guide", "Description": "My learning material for technical interviews!", "Language": "C++", "Topics": ["algorithms", "data-structures", "coding", "competitive-programming", "company-profile", "java", "interview", "interview-questions", "interview-practice", "interview-preparation", "book-solutions", "cracking-the-coding-interview", "introduction-to-algorithms", "interview-prep", "interviews", "coding-challenge", "coding-interviews", "coding-challenges"]}, {"Full name": "kumaransg/LLD", "Description": "Curated Collection of all Low level design Questions and implementation asked in major Tech companies , Get yourself prepared for the LLD round and ace the interview.", "Language": "Java", "Topics": ["low-level-design", "machine-coding", "object-oriented-design", "object-oriented-programming", "lld", "interview-preparation", "system-design", "low-level-design-problems", "interview-practice"]}, {"Full name": "sunil12738/frontend-developer-interview-questions", "Description": "A list of helpful frontend related interview questions you can use to test yourself, prepare for interviews etc.", "Language": null, "Topics": ["interview-questions", "interview-practice", "javascript", "javascript-interview-questions", "frontend-interview-questions", "html-css-javascript", "html-interview-questions", "react-interview-questions"]}, {"Full name": "usmanovs/Salesforce-Interview-Handbook", "Description": "🌐 Project to help aspiring Salesforce professionals land their dream job!", "Language": null, "Topics": ["salesforce", "salesforce-developers", "interview-questions", "interview-practice", "interview-preparation", "salesforce-apex"]}, {"Full name": "luceCoding/Programming-Interview-Questions-in-Python", "Description": "Python programming interview questions.", "Language": null, "Topics": ["python", "leetcode", "leetcode-python", "interview-questions", "interview-practice", "interview-preparation", "python-interview-questions", "python3"]}, {"Full name": "Kirchhoff-/Android-Interview-Questions", "Description": "The curated list of Android Developer interview questions and answers", "Language": null, "Topics": ["android", "java", "kotlin", "android-interview-practice", "android-interview-questions", "android-interview", "interview-practice", "interview-preparation", "interview", "interview-questions", "rxjava", "rxandroid"]}, {"Full name": "SaadAAkash/Android-Interview-Essentials", "Description": "💼📝⚡️Mobile App Developer Interviews Q&A Cheat Sheet - An awesome curation of Q&A, code examples, resources - categorized based on expertise (Continuously Updating..) ", "Language": null, "Topics": ["kotlin", "kotlin-android", "android", "viewmodel", "mvvm", "android-interview-questions", "android-interview-practice", "android-interviews", "android-interview", "interview-questions", "interview", "flutter", "androidx", "java", "android-architecture-components", "android-development", "interview-practice", "interview-preparation"]}, {"Full name": "proyecto26/TheJobInterviewGuide", "Description": "The Job Interview Guide 💼", "Language": null, "Topics": ["interview", "interview-questions", "interview-preparation", "interview-practice", "interview-prep", "interviewing", "interviews", "guide", "interview-guide", "coding-interviews", "coding-challenges", "data-structures", "computer-science", "javascript-interview-questions", "frontend-interview", "system-design-interview", "system-design-questions", "behavioral-interviews", "job-interviews", "job-interview-challenges"]}, {"Full name": "jisungbin/Android-Interview-Study-2021", "Description": "🤓 2021~ 안드로이드 취직 대비 면접 공부 기록터 📖", "Language": null, "Topics": ["programming-study", "interview", "interview-questions", "interview-practice", "android", "sungbin"]}, {"Full name": "surajr/CodingInterview", "Description": "Solutions to Leetcode, CareerCup Coding problems", "Language": "Java", "Topics": ["leetcode-java", "leetcode", "leetcode-solutions", "careercup", "coding-interviews", "interview-questions", "interview-practice", "technical-coding-interview", "technical-interviews"]}, {"Full name": "WebPredict/angular-2-interview-questions", "Description": "Angular 2+ Interview Questions... And Answers!", "Language": null, "Topics": ["angular", "angular2", "angular-framework", "interview-questions", "interview-practice"]}, {"Full name": "sachin-duhan26/COMPETITVE-PROGRAMMING", "Description": "Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. This repo contains the Detailed Explanation and implementation of Various Coding problems on various platforms in C++", "Language": "C++", "Topics": ["c-plus-plus", "data-structures-and-algorithms", "stl", "competitive-programming", "problem-solving", "interview-questions", "interview-practice", "leetcode-solutions", "leetcode-cpp", "leetcode-practice", "leetcode-questions", "codeche", "codechef-solutions", "a2oj", "algorithms", "codeforces-solutions", "geeksforgeeks", "geeksforgeeks-solutions", "interviewbit", "interviewbit-solutions"]}, {"Full name": "kiwidamien/SQL_practice", "Description": "A collection of SQL practice problems for interviews", "Language": "Python", "Topics": ["interview-practice", "sql"]}, {"Full name": "apoterenko/javascript-interview-questions", "Description": "Essential JavaScript Interview Questions", "Language": null, "Topics": ["javascript", "interview-practice", "interview"]}, {"Full name": "revpwn/JobInterviewAlgorithms", "Description": "A directory of classic algorithms that you will find when interviewing for software engineering jobs.", "Language": "C++", "Topics": ["algorithm", "jobs", "engineering-jobs", "interview-practice"]}, {"Full name": "keep-practicing/leetcode-go", "Description": "✏️ Golang solution for leetcode algorithm problems 📚(continually updating 💪 😃).", "Language": "Go", "Topics": ["leetcode-solutions", "leetcode-go", "leetcode-golang", "leetcode", "leetcode-practice", "leetcode-questions", "algorithms", "interview-practice", "interview-questions", "interview", "sorted-arrays"]}, {"Full name": "akashmodak97/Competitive-Coding-and-Interview-Problems", "Description": "This repo contains some problem solutions from different popular coding platforms like Code Chef, Leet Code, Hacker Blocks,etc.", "Language": "C++", "Topics": ["competitive-programming", "competitive-coding", "interview-questions", "interview-preparation", "cplusplus", "programming", "leetcode-solutions", "leetcode-cpp", "codechef-solutions", "codechef", "hackerblocks", "hackerrank", "hackerrank-solutions", "backtracking-algorithm", "interview-practice", "interview-prep", "cplusplus-11", "interviewbit", "interviewbit-solutions", "spoj-solutions"]}, {"Full name": "NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit", "Description": "This repo has various data structures and algorithms implementations and problems around that for preparing the coding interviews. 🚀 👨‍💻💻 🚩 ", "Language": "Java", "Topics": ["java", "data-structures", "algorithm", "problem-solving", "interview-preparation", "interview-prep", "interview-practice", "coding-blocks", "coding-interviews", "coding", "programming", "leetcode", "leetcode-java", "interview-preparation-resources", "geeksforgeeks", "java-data-structure", "algorithms-implemented", "codeforces", "codechef"]}, {"Full name": "BarstoolSports/fullstack-challenge", "Description": "Barstool Fullstack Interview Challenge", "Language": "HTML", "Topics": ["nodejs", "react", "mongodb", "expressjs", "interview-questions", "interview-practice"]}, {"Full name": "adityaarakeri/Interview-solved", "Description": " 🌴 Solutions to few of the interview coding challenges in Python 🐍", "Language": "Python", "Topics": ["interview-practice", "solved", "hacktoberfest", "hacktoberfest2020"]}, {"Full name": "LearnTeachCode/algorithms-group", "Description": "Resources and notes for the algorithms study group with Learn Teach Code (Created by @ThuyNT13, @mtroiani, @LearningNerd, @nurarenke and @loorinm)", "Language": "JavaScript", "Topics": ["algorithms", "data-structures", "interview-practice", "tech-interviews"]}, {"Full name": "ryanmcdermott/katas", "Description": ":school: Coding katas", "Language": "C++", "Topics": ["kata", "algorithms", "data-structures", "cpp", "interview-questions", "interview-practice", "interview-preparation"]}, {"Full name": "bezzad/foobar.withgoogle", "Description": "My Google Foo Bar Challenges", "Language": "Python", "Topics": ["google", "foobar", "interview-practice", "interview-questions", "challenges"]}, {"Full name": "dheeraj-2000/dsalgo", "Description": "Contains Algorithms useful for interview preparation, various practice problems of Arrays, Stacks, queue etc.  Contributors are Welcome but, DO NOT MAKE THIS REPO ACT LIKE A SOURCE OF +1.", "Language": "C++", "Topics": ["algorithms", "firstpullrequest", "interview-practice", "arrays", "hacktoberfest", "hacktoberfest2021"]}, {"Full name": "algoholics-ntua/algorithms", "Description": "Resources for reading & solved problems ", "Language": "C++", "Topics": ["algorithms", "data-structures", "ioi", "icpc", "algorithms-implemented", "interview-practice", "interview-preparation", "hackerrank", "hackerrank-solutions", "spoj", "geeksforgeeks", "codechef"]}, {"Full name": "xiaoyunyang/coding-challenges", "Description": "solutions to coding challenges and algorithm and data structure building blocks", "Language": "JavaScript", "Topics": ["algorithms", "data-structures", "interview-practice", "interview-questions"]}, {"Full name": "hevalhazalkurt/codewars_python_solutions", "Description": "My CodeWars solutions in Python. ", "Language": "Python", "Topics": ["codewars", "codewars-solutions", "codewars-kata-solution", "codewars-python", "algorithms", "algorithm-challenges", "python", "problem-solving", "problems", "interview", "interview-questions", "interview-practice", "practice", "practice-python", "interview-preparation", "algorithm", "python3"]}, {"Full name": "aershov24/typescript-interview-questions", "Description": "🔴 TypeScript Interview Questions and Answered to prepare for your next Web/Angular developer interview", "Language": null, "Topics": ["typescript", "javascript", "interview-questions", "interview-practice", "interview-preparation", "interviewing"]}, {"Full name": "IvanLu1024/LeetCode", "Description": ":chart_with_upwards_trend: 关于LeetCode的做题记录和笔记（Updating....）", "Language": "Java", "Topics": ["leetcode-java", "interview-practice", "data-structures"]}, {"Full name": "OpenCodeFoundation/interview-tips", "Description": "A collection of awesome Interview Tips and Questions", "Language": null, "Topics": ["interview-questions", "interview-preparation", "interview", "interview-practice", "cv-template", "resume-template", "cv-bank"]}, {"Full name": "fatosmorina/machine-learning-exams", "Description": "This repository contains links to machine learning exams, homework assignments, and exercises that can help you test your understanding.", "Language": null, "Topics": ["ml", "machine-learning", "deep-learning", "machinelearning", "stanford", "nlp", "nlp-machine-learning", "exam", "students", "questions-and-answers", "technical-test", "interview-questions", "interview-practice", "interview-preparation", "interviews"]}, {"Full name": "tkssharma/hackerrank-full-stack", "Description": "Crack Interviews Full Stack on HackerRank", "Language": "JavaScript", "Topics": ["angular", "react", "testing", "stack", "hackerrank", "interview", "interview-practice"]}]
+[
+    {
+        "Full name": "donnemartin/system-design-primer",
+        "Description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+        "Language": "Python",
+        "Topics": [
+            "programming",
+            "development",
+            "design",
+            "design-system",
+            "system",
+            "design-patterns",
+            "web",
+            "web-application",
+            "webapp",
+            "python",
+            "interview",
+            "interview-questions",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "yangshun/tech-interview-handbook",
+        "Description": "💯 Curated interview preparation materials for busy engineers",
+        "Language": "JavaScript",
+        "Topics": [
+            "interview-questions",
+            "coding-interviews",
+            "interview-practice",
+            "interview-preparation",
+            "algorithm",
+            "algorithms",
+            "hacktoberfest"
+        ]
+    },
+    {
+        "Full name": "kdn251/interviews",
+        "Description": "Everything you need to know to get the job.",
+        "Language": "Java",
+        "Topics": [
+            "java",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interview-prep",
+            "algorithm",
+            "algorithm-challenges",
+            "algorithms",
+            "algorithm-competitions",
+            "technical-coding-interview",
+            "leetcode",
+            "leetcode-solutions",
+            "leetcode-java",
+            "coding-interviews",
+            "coding-interview",
+            "coding-challenge",
+            "coding-challenges",
+            "leetcode-questions",
+            "interviews"
+        ]
+    },
+    {
+        "Full name": "DopplerHQ/awesome-interview-questions",
+        "Description": ":octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ",
+        "Language": null,
+        "Topics": [
+            "awesome-list",
+            "awesomeness",
+            "interview-questions",
+            "interviewing",
+            "interview-practice",
+            "ruby",
+            "javascript",
+            "awesome",
+            "list",
+            "python-interview-questions",
+            "rails-interview",
+            "javascript-interview-questions",
+            "angularjs-interview-questions",
+            "android-interview-questions"
+        ]
+    },
+    {
+        "Full name": "binhnguyennus/awesome-scalability",
+        "Description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+        "Language": null,
+        "Topics": [
+            "system-design",
+            "backend",
+            "scalability",
+            "interview",
+            "architecture",
+            "devops",
+            "design-patterns",
+            "interview-questions",
+            "awesome-list",
+            "big-data",
+            "awesome",
+            "resources",
+            "lists",
+            "web-development",
+            "programming",
+            "system",
+            "interview-practice",
+            "computer-science",
+            "distributed-systems",
+            "machine-learning"
+        ]
+    },
+    {
+        "Full name": "donnemartin/interactive-coding-challenges",
+        "Description": "120+ interactive Python coding interview challenges (algorithms and data structures).  Includes Anki flashcards.",
+        "Language": "Python",
+        "Topics": [
+            "python",
+            "algorithm",
+            "data-structure",
+            "development",
+            "programming",
+            "coding",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "competitive-programming"
+        ]
+    },
+    {
+        "Full name": "huihut/interview",
+        "Description": "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendation, etc.",
+        "Language": "C++",
+        "Topics": [
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interviews",
+            "c",
+            "cpp",
+            "algorithm",
+            "database",
+            "data-structures",
+            "stl",
+            "operating-system",
+            "leetcode"
+        ]
+    },
+    {
+        "Full name": "chefyuan/algorithm-base",
+        "Description": "专门为刚开始刷题的同学准备的算法基地，没有最细只有更细，立志用动画将晦涩难懂的算法说的通俗易懂！",
+        "Language": "Java",
+        "Topics": [
+            "leetcode",
+            "offer",
+            "algorithms",
+            "base",
+            "programmers",
+            "interview-questions",
+            "interview-practice",
+            "java"
+        ]
+    },
+    {
+        "Full name": "MindorksOpenSource/android-interview-questions",
+        "Description": "Your Cheat Sheet For Android Interview - Android Interview Questions",
+        "Language": "Java",
+        "Topics": [
+            "cheatsheet",
+            "cheat-sheets",
+            "android",
+            "android-interview-practice",
+            "android-interview-questions",
+            "android-interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-prep"
+        ]
+    },
+    {
+        "Full name": "twowaits/SDE-Interview-Questions",
+        "Description": "Most comprehensive list :clipboard: of tech interview questions :blue_book: of companies scraped from Geeksforgeeks, CareerCup and Glassdoor. ",
+        "Language": "Java",
+        "Topics": [
+            "data-structures",
+            "algorithm",
+            "geeksforgeeks",
+            "glassdoor",
+            "careercup",
+            "coding-interviews",
+            "coding-interview",
+            "interview-practice",
+            "interview-preparation",
+            "interview-questions",
+            "interview-prep"
+        ]
+    },
+    {
+        "Full name": "mandliya/algorithms_and_data_structures",
+        "Description": "180+ Algorithm & Data Structure Problems using C++",
+        "Language": "C++",
+        "Topics": [
+            "algorithm",
+            "c",
+            "cpp",
+            "interview-questions",
+            "interview-practice",
+            "data-structures",
+            "datastructures",
+            "c-plus-plus",
+            "bit-manipulation",
+            "tree",
+            "leetcode-solutions",
+            "leetcode",
+            "string-manipulation"
+        ]
+    },
+    {
+        "Full name": "teivah/algodeck",
+        "Description": "An Open-Source Collection of 200+ Algorithmic Flash Cards to Help you Preparing your Algorithm & Data Structure Interview 💯",
+        "Language": null,
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "array",
+            "bit-manipulation",
+            "complexity",
+            "dynamic-programming",
+            "graph",
+            "greedy-algorithms",
+            "hashtable",
+            "heap",
+            "linked-list",
+            "math",
+            "queue",
+            "recursion",
+            "sorting-algorithms",
+            "stack",
+            "tree",
+            "interview-practice",
+            "algorithm",
+            "java"
+        ]
+    },
+    {
+        "Full name": "JsonChao/Awesome-Android-Interview",
+        "Description": ":fire: A awesome  android expert interview questions and answers（continuous updating ...）",
+        "Language": null,
+        "Topics": [
+            "android",
+            "interview",
+            "java",
+            "interview-questions",
+            "cheatsheet",
+            "cheatsheets",
+            "android-interview-practice",
+            "android-interview",
+            "interview-practice",
+            "interview-preparation",
+            "interview-prep"
+        ]
+    },
+    {
+        "Full name": "kennymkchan/interview-questions-in-javascript",
+        "Description": "A mostly reasonable collection of technical software development interview questions solved in Javascript",
+        "Language": null,
+        "Topics": [
+            "interview-questions",
+            "javascript",
+            "stack",
+            "recursion",
+            "strings",
+            "array",
+            "interview-practice",
+            "interviews"
+        ]
+    },
+    {
+        "Full name": "NotFound9/interviewGuide",
+        "Description": "《大厂面试指北》——包括Java基础、JVM、数据库、mysql、redis、计算机网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。最佳阅读地址：http://notfound9.github.io/interviewGuide/",
+        "Language": "Java",
+        "Topics": [
+            "interview-questions",
+            "java",
+            "redis",
+            "star",
+            "jvm",
+            "mysql",
+            "interview",
+            "algorithms",
+            "spring",
+            "backend",
+            "leetcode",
+            "leetcode-java",
+            "data-structures",
+            "interview-practice",
+            "interviews",
+            "system-design",
+            "interview-preparation",
+            "guide",
+            "code-interview",
+            "java-interview"
+        ]
+    },
+    {
+        "Full name": "AweiLoveAndroid/CommonDevKnowledge",
+        "Description": ":octocat::fire: :star2::star::star::star: :star:  史上最全的BAT大厂Android面试题汇集，以及常用的Android开发的一些技能点，冷门知识点汇总，开发中遇到的坑汇总等干货。",
+        "Language": "Java",
+        "Topics": [
+            "java",
+            "android",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interviews",
+            "offer"
+        ]
+    },
+    {
+        "Full name": "kamyu104/LeetCode-Solutions",
+        "Description": "🏋️ (Weekly Update) Python / Modern C++ Solutions of All 2076 LeetCode Problems",
+        "Language": "C++",
+        "Topics": [
+            "leetcode",
+            "python",
+            "cpp",
+            "algorithm",
+            "data-structure",
+            "cpp11",
+            "leetcode-solutions",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "leetcode-cpp",
+            "modern-cpp",
+            "leetcode-python"
+        ]
+    },
+    {
+        "Full name": "forthespada/InterviewGuide",
+        "Description": "「InterviewGuide」一个收录优质计算机校招、社招面试常见面试题的仓库🔥🔥，以前叫做《逆袭进大厂》。目前已收录 C/C++ 、操作系统、数据结构、计算机网络、MySQL、Redis等面试资料,未来打算继续收录Java、Python、Go等面试常见问题，坚持将此仓库维护下去。",
+        "Language": null,
+        "Topics": [
+            "cpp",
+            "java",
+            "os",
+            "interview",
+            "interview-questions",
+            "interview-preparation",
+            "redis",
+            "mysql",
+            "system",
+            "questions-and-answers",
+            "guide",
+            "data-structures-and-algorithms",
+            "interview-practice",
+            "pdf",
+            "code"
+        ]
+    },
+    {
+        "Full name": "SharingSource/LogicStack-LeetCode",
+        "Description": "公众号「宫水三叶的刷题日记」刷穿 LeetCode 系列文章源码",
+        "Language": null,
+        "Topics": [
+            "leetcode",
+            "algorithm",
+            "offer",
+            "interview-questions",
+            "interview-practice",
+            "programmers"
+        ]
+    },
+    {
+        "Full name": "joowani/binarytree",
+        "Description": "Python Library for Studying Binary Trees",
+        "Language": "Python",
+        "Topics": [
+            "python",
+            "python3",
+            "python2",
+            "python-3",
+            "python-2",
+            "python-library",
+            "binary-trees",
+            "binary-tree",
+            "interview-practice",
+            "interview",
+            "learning",
+            "practise",
+            "algorithm",
+            "data-structures",
+            "data-structure",
+            "heap",
+            "heaps",
+            "bst",
+            "binary-search-tree"
+        ]
+    },
+    {
+        "Full name": "Awesome-Interview/Awesome-Interview",
+        "Description": "Collection of awesome interview references.",
+        "Language": null,
+        "Topics": [
+            "interview",
+            "interview-preparation",
+            "interview-practice",
+            "interviews",
+            "interview-prep",
+            "backend",
+            "frontend",
+            "cpp",
+            "java",
+            "python",
+            "machine-learning",
+            "deep-learning",
+            "ios",
+            "android"
+        ]
+    },
+    {
+        "Full name": "FreeTymeKiyan/LeetCode-Sol-Res",
+        "Description": "Clean, Understandable Solutions and Resources for LeetCode Online Judge Algorithm Problems. ",
+        "Language": "Java",
+        "Topics": [
+            "leetcode",
+            "java",
+            "review",
+            "interview",
+            "coding-interviews",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "algorithm",
+            "algorithms"
+        ]
+    },
+    {
+        "Full name": "alexgurr/react-coding-challenges",
+        "Description": "A series of ReactJS coding challenges with a variety of difficulties. ",
+        "Language": "SCSS",
+        "Topics": [
+            "coding-challenges",
+            "javascript",
+            "react",
+            "reactjs",
+            "app",
+            "interview-practice",
+            "interview",
+            "react-coding-challenges",
+            "challenge",
+            "interviews",
+            "exercises",
+            "candidates"
+        ]
+    },
+    {
+        "Full name": "mre/the-coding-interview",
+        "Description": "Programming exercises, code katas and puzzles for your job interview training - or just for fun.",
+        "Language": "Python",
+        "Topics": [
+            "interview-practice",
+            "interview-test-task",
+            "language-learning",
+            "coding-interview"
+        ]
+    },
+    {
+        "Full name": "puncsky/system-design-and-architecture",
+        "Description": "Learn how to design large-scale systems. Prep for the system design interview.",
+        "Language": null,
+        "Topics": [
+            "architecture",
+            "interview",
+            "design",
+            "design-patterns",
+            "web",
+            "interview-questions",
+            "interview-practice",
+            "development",
+            "design-system",
+            "system-design"
+        ]
+    },
+    {
+        "Full name": "yuzhoujr/leetcode",
+        "Description": "👏🏻 leetcode solutions for Humans™",
+        "Language": "Python",
+        "Topics": [
+            "leetcode",
+            "algorithm",
+            "google",
+            "python",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interview-test",
+            "algorithms",
+            "algorithm-challenges",
+            "algorithms-datastructures",
+            "algiorithimcs",
+            "algorithms-and-data-structures",
+            "algorithm-competitions",
+            "leetcode-solutions",
+            "leetcode-python",
+            "python-leetcode"
+        ]
+    },
+    {
+        "Full name": "arpankg/ctci-python-solutions",
+        "Description": "Cracking the Coding Interview in Python 3. The solutions all have detailed explanations with visuals.",
+        "Language": null,
+        "Topics": [
+            "cracking-the-coding-interview",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "python3",
+            "python",
+            "gayle-laakmann-mcdowell"
+        ]
+    },
+    {
+        "Full name": "marcosfede/algorithms",
+        "Description": "Solved algorithms and data structures problems in many languages",
+        "Language": "Python",
+        "Topics": [
+            "algorithm",
+            "python",
+            "ruby",
+            "golang",
+            "go",
+            "javascript",
+            "competitive-programming",
+            "data-structures",
+            "interview",
+            "interview-practice",
+            "language",
+            "bfs",
+            "heap",
+            "graph",
+            "hacktoberfest"
+        ]
+    },
+    {
+        "Full name": "liuyubobobo/Play-with-Algorithm-Interview",
+        "Description": "Codes of my MOOC Course <Play with Algorithm Interviews>. Updated contents and practices are also included. 我在慕课网上的课程《玩儿转算法面试》示例代码。课程的更多更新内容及辅助练习也将逐步添加进这个代码仓。",
+        "Language": "C++",
+        "Topics": [
+            "algorithms",
+            "interview-questions",
+            "interview-practice",
+            "leetcode",
+            "imooc",
+            "mooc"
+        ]
+    },
+    {
+        "Full name": "bcherny/frontend-interview-questions",
+        "Description": "Answers for https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)",
+        "Language": "JavaScript",
+        "Topics": [
+            "javascript",
+            "interview-questions",
+            "interview-practice",
+            "frontend"
+        ]
+    },
+    {
+        "Full name": "connor11528/cs-fundamentals",
+        "Description": "🎓 Data structures and algorithms ",
+        "Language": "JavaScript",
+        "Topics": [
+            "interview-questions",
+            "coding-interviews",
+            "interview-practice",
+            "interview",
+            "programming-challenge",
+            "programming-challenges",
+            "interview-preparation",
+            "interviews",
+            "coding-challenge",
+            "coding-challenges",
+            "coding-interview",
+            "codingame",
+            "coding",
+            "interview-prep",
+            "programming",
+            "job-board",
+            "jobseeker",
+            "job-interviews",
+            "jobsearch",
+            "job-hunting"
+        ]
+    },
+    {
+        "Full name": "dashvlas/awesome-ios-interview",
+        "Description": "📲 The curated list of iOS Developer interview questions and answers, Swift & Objective-C",
+        "Language": null,
+        "Topics": [
+            "ios",
+            "swift",
+            "developer-tools",
+            "interview-questions",
+            "objective-c",
+            "xcode",
+            "macos",
+            "interview-practice",
+            "interview-preparation",
+            "ios-interview",
+            "awesome-list",
+            "awesome-ios",
+            "ios-sdk",
+            "ios11",
+            "ios-swift",
+            "interview",
+            "interview-test-task",
+            "interview-answers"
+        ]
+    },
+    {
+        "Full name": "onthecodepath/iOS-Interview-Questions",
+        "Description": "A curated list of iOS interview questions and answers",
+        "Language": null,
+        "Topics": [
+            "objective-c",
+            "interview-questions",
+            "swift",
+            "ios",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "kamyu104/LintCode",
+        "Description": "📝 C++11 Solutions of All 289 LintCode Problems (No More Updates) ",
+        "Language": "C++",
+        "Topics": [
+            "lintcode",
+            "cpp",
+            "algorithm",
+            "data-structure",
+            "cpp11",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "rampatra/Algorithms-and-Data-Structures-in-Java",
+        "Description": "Algorithms and Data Structures in Java",
+        "Language": "Java",
+        "Topics": [
+            "java",
+            "algorithm",
+            "interview",
+            "datastructures",
+            "data-structures",
+            "hackerrank",
+            "geeksforgeeks",
+            "interview-practice",
+            "interview-preparation",
+            "java-8",
+            "cracking-the-coding-interview",
+            "cracking-the-technical-interview",
+            "cracking-code-interview",
+            "coding-interview",
+            "algorithms",
+            "algorithms-and-data-structures",
+            "blockchain",
+            "blockchain-demo",
+            "blockchain-java",
+            "leetcode"
+        ]
+    },
+    {
+        "Full name": "Just-A-Visitor/Algorithmic-Pseudocode",
+        "Description": "This repository contains the pseudocode(pdf) of various algorithms and data structures necessary for Interview Preparation and Competitive Coding",
+        "Language": "TeX",
+        "Topics": [
+            "algorithms",
+            "pseudocode",
+            "data-structures",
+            "algorithms-and-data-structures",
+            "interview-questions",
+            "interview-preparation",
+            "leetcode",
+            "interviews",
+            "interview-practice",
+            "coding-interviews",
+            "latex",
+            "hacktoberfest"
+        ]
+    },
+    {
+        "Full name": "alirezadir/machine-learning-interview-enlightener",
+        "Description": "This repo is meant to serve as a guide for Machine Learning/AI technical interviews. ",
+        "Language": "Jupyter Notebook",
+        "Topics": [
+            "machine-learning",
+            "machine-learning-algorithms",
+            "ai",
+            "deep-learning",
+            "system-design",
+            "scalable-applications",
+            "interview",
+            "interview-preparation",
+            "interview-practice",
+            "interviews"
+        ]
+    },
+    {
+        "Full name": "aershov24/full-stack-interview-questions",
+        "Description": "🔴 More than ~3877 Full Stack, Coding & System Design Interview Questions And Answers sourced from all around the Internet to help you to prepare to an interview, conduct one, mock your lead dev or completely ignore. Find more questions and answers on 👉  ",
+        "Language": null,
+        "Topics": [
+            "full-stack",
+            "full-stack-development",
+            "full-stack-web-developer",
+            "angular",
+            "react",
+            "vuejs",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interview-test"
+        ]
+    },
+    {
+        "Full name": "omonimus1/competitive-programming",
+        "Description": "My competitive programming guide,reading materials, link to system and design interview preparation and my own coding solutions from Codechef, Leetcode,Geeks for Geeks, HackerRank , spoj, codesignal, codebyte, codeblocks and other online judges",
+        "Language": "C++",
+        "Topics": [
+            "algorithms-and-data-structures",
+            "cpp",
+            "algorithm",
+            "data-structures",
+            "tutorial",
+            "python",
+            "hackerrank-solutions",
+            "codechef-solutions",
+            "competitve-programming",
+            "competitive-programming-contests",
+            "geeksforgeeks-solutions",
+            "competitive-programming-notes",
+            "interview-practice",
+            "leetcode-solutions",
+            "leet",
+            "leetcode-cpp",
+            "interview-preparation"
+        ]
+    },
+    {
+        "Full name": "stacygohyunsi/algorithms-primer",
+        "Description": "A consolidated collection of resources for you to learn and understand algorithms and data structures easily. ",
+        "Language": null,
+        "Topics": [
+            "algorithm",
+            "data-structures",
+            "knapsack-problem",
+            "queues",
+            "stacks",
+            "greedy-algorithm",
+            "sort",
+            "sorting-algorithms",
+            "bubble-sort",
+            "linear-search",
+            "merge-sort",
+            "quicksort-algorithm",
+            "big-o",
+            "dynamic-programming",
+            "linked-list",
+            "interview-practice",
+            "interview-questions"
+        ]
+    },
+    {
+        "Full name": "khan4019/angular-interview-questions",
+        "Description": "Most extensive Angular interview questions based on your level.",
+        "Language": "HTML",
+        "Topics": [
+            "angular-interview-questions",
+            "angular",
+            "angular2",
+            "angular4",
+            "angular-material",
+            "interview-questions",
+            "interview-preparation",
+            "front-end-interview",
+            "interview-practice",
+            "angular-cli",
+            "angular-components",
+            "angular-material2"
+        ]
+    },
+    {
+        "Full name": "karansaxena/STL_Cheat_Sheets",
+        "Description": "C++ STL Cheat Sheets.",
+        "Language": null,
+        "Topics": [
+            "cpp",
+            "stl",
+            "coding",
+            "codechef",
+            "hackerearth",
+            "hackerrank",
+            "topcoder",
+            "codeforces",
+            "c",
+            "c-plus-plus",
+            "cheatsheet",
+            "cheat-sheets",
+            "lists",
+            "interview",
+            "interview-preparation",
+            "interview-practice",
+            "interviewbit",
+            "leetcode"
+        ]
+    },
+    {
+        "Full name": "sid24rane/System-Design-Interview-Questions",
+        "Description": "A curated list of System Design interview questions for SDE-1 (Experienced),SDE-2 and above.",
+        "Language": null,
+        "Topics": [
+            "interview",
+            "interview-preparation",
+            "interview-questions",
+            "interview-practice",
+            "system-design",
+            "system-design-questions"
+        ]
+    },
+    {
+        "Full name": "DivyaGodayal/CoderChef-Kitchen",
+        "Description": "The official repository for our programming kitchen which consists of 50+ delicious programming recipes having all the interesting ingredients ranging from dynamic programming, graph theory, linked lists and much more. All the articles contain beautiful images and some gif/video at times to help clear important concepts.",
+        "Language": "Python",
+        "Topics": [
+            "leetcode",
+            "programming",
+            "python",
+            "java",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interview",
+            "editorial",
+            "blogging",
+            "datastructure",
+            "algorithm",
+            "dynamic-programming",
+            "greedy-algorithms",
+            "linked-list",
+            "graph",
+            "trees",
+            "string",
+            "100daysofcode",
+            "codenewbie"
+        ]
+    },
+    {
+        "Full name": "JiayangWu/LeetCode-Python",
+        "Description": "LeetCode solutions in Python2. LeetCode题解 in Python2。",
+        "Language": "Python",
+        "Topics": [
+            "leetcode",
+            "leetcode-solutions",
+            "python2",
+            "chinese",
+            "interview-questions",
+            "interview-questions-solved",
+            "interview-preparation",
+            "interview-practice",
+            "algorithm-challenges",
+            "algorithms",
+            "leetcode-python",
+            "leetcode-practice"
+        ]
+    },
+    {
+        "Full name": "brndnmtthws/cracking-the-coding-interview-rust",
+        "Description": "Cracking the Coding Interview problem solutions in Rust",
+        "Language": "Rust",
+        "Topics": [
+            "cracking-the-coding-interview",
+            "interview-questions",
+            "interview-practice",
+            "rust",
+            "rust-lang",
+            "twitch",
+            "youtube",
+            "learn-to-code"
+        ]
+    },
+    {
+        "Full name": "MahdiMashrur/Awesome-Coding-Interview-Question-Patterns",
+        "Description": "The most common question-patterns for any coding-interview",
+        "Language": null,
+        "Topics": [
+            "interview-questions",
+            "coding-interviews",
+            "interview-preparation",
+            "interview-practice",
+            "patterns",
+            "cheatsheet",
+            "algorithms",
+            "data-structures",
+            "algorithms-and-data-structures",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "awesome-interview-questions",
+            "interview-prep",
+            "software-engineering",
+            "interview",
+            "interview-test",
+            "google-interview",
+            "amazon-interview"
+        ]
+    },
+    {
+        "Full name": "n3a9/google-foobar",
+        "Description": "My Google Foo Bar Challenges 🤓 🧮",
+        "Language": "Java",
+        "Topics": [
+            "google",
+            "foobar",
+            "interview-practice",
+            "interview-questions"
+        ]
+    },
+    {
+        "Full name": "warycat/rustgym",
+        "Description": "Leetcode Solutions in Rust, Advent of Code Solutions in Rust and more",
+        "Language": "Rust",
+        "Topics": [
+            "leetcode",
+            "rust",
+            "solutions",
+            "macros",
+            "leetcode-rust",
+            "algorithm",
+            "interview",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "trie",
+            "leetcode-solutions",
+            "graph",
+            "tutorial",
+            "hackerrank",
+            "hackerrank-solutions",
+            "advent-of-code"
+        ]
+    },
+    {
+        "Full name": "AlgorithmCrackers/Interview-Questions",
+        "Description": "List of all the Interview questions practiced from online resources and books",
+        "Language": "Java",
+        "Topics": [
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "interviews",
+            "interview",
+            "data-structures",
+            "datastructures",
+            "algorithm",
+            "algorithm-challenges",
+            "linked-list",
+            "stack",
+            "queue",
+            "tree",
+            "graph",
+            "oop",
+            "sorting-algorithms",
+            "sort"
+        ]
+    },
+    {
+        "Full name": "thundergolfer/interview-with-python",
+        "Description": "The ultimate in python interview preparation and coding practice.",
+        "Language": "Python",
+        "Topics": [
+            "study-aid",
+            "problem-solving",
+            "interview-practice",
+            "interviewing"
+        ]
+    },
+    {
+        "Full name": "Java-aid/Interview-Preparations",
+        "Description": "This repository contains coding assessments and their solutions for various IT companies",
+        "Language": "Java",
+        "Topics": [
+            "javaaid",
+            "interview-questions",
+            "hackerrank",
+            "hackerrank-test",
+            "online-test",
+            "interview-practice",
+            "interview-prep",
+            "kanahaiya",
+            "kanhaiya",
+            "java-aid",
+            "solutions",
+            "questions",
+            "hackerearth",
+            "coding-interviews",
+            "interview-preparation",
+            "java",
+            "github",
+            "techgig",
+            "goldmansachs",
+            "solution"
+        ]
+    },
+    {
+        "Full name": "harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI",
+        "Description": "Javascript solutions to Cracking the Coding Interview (CTCI)",
+        "Language": "JavaScript",
+        "Topics": [
+            "cracking-the-coding-interview",
+            "ctci",
+            "interview-questions",
+            "interview-practice",
+            "interview-prep",
+            "javascript",
+            "mocha",
+            "chai",
+            "es6",
+            "tdd",
+            "js",
+            "interviewing"
+        ]
+    },
+    {
+        "Full name": "lesywix/oh-my-python",
+        "Description": "剑指offer（python版）/ 算法图解 / python基础 / 数据结构",
+        "Language": "Python",
+        "Topics": [
+            "python",
+            "algorithm",
+            "data-structures",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore",
+        "Description": "Solutions of Data Structures and Algorithms in Java 2nd Edition by Robert Lafore. Adding practice problems and solutions.",
+        "Language": "Java",
+        "Topics": [
+            "algorithm",
+            "java",
+            "data-structures",
+            "algorithm-challenges",
+            "linked-list",
+            "array",
+            "stack",
+            "queues",
+            "sorting-algorithms",
+            "recursion",
+            "programming-practices",
+            "robert-lafore",
+            "graphs",
+            "shell-sort",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interview-test",
+            "hacktoberfest",
+            "programming-practice"
+        ]
+    },
+    {
+        "Full name": "samgh/Byte-by-Byte-Solutions",
+        "Description": "Coding interview questions and solutions",
+        "Language": "Java",
+        "Topics": [
+            "interview-questions",
+            "interview-practice",
+            "interview",
+            "interview-prep",
+            "cracking-the-coding-interview",
+            "leetcode",
+            "bytebybyte"
+        ]
+    },
+    {
+        "Full name": "gdutxiaoxu/AndroidGuide",
+        "Description": "「Android学习+面试指南」一份涵盖大部分 Android 程序员所需要掌握的核心知识。准备 Android 面试，首选 AndroidGuide！公众号程序员徐公",
+        "Language": null,
+        "Topics": [
+            "interview-questions",
+            "interview",
+            "interview-practice",
+            "android",
+            "android-notes",
+            "android-learning"
+        ]
+    },
+    {
+        "Full name": "r1cc4rdo/daily_coding_problem",
+        "Description": "Solutions to https://dailycodingproblem.com",
+        "Language": "Python",
+        "Topics": [
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "coding-interviews",
+            "coding-challenges",
+            "daily-coding-problem",
+            "dailycodingproblem"
+        ]
+    },
+    {
+        "Full name": "javadhme/android-interview-questions",
+        "Description": "Android interview questions with answers. This repo is suitable for an interviewer, interviewee, and for everyone who wants to improve their knowledge skills about android topics.",
+        "Language": null,
+        "Topics": [
+            "android-interview",
+            "android-interview-practice",
+            "android-interview-question",
+            "android-interviews",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "interview-prep"
+        ]
+    },
+    {
+        "Full name": "rongweihe/CPPNotes",
+        "Description": "【C++ 面试 + C++ 学习指南】 一份涵盖大部分 C++ 程序员所需要掌握的核心知识。",
+        "Language": "C++",
+        "Topics": [
+            "cpp",
+            "pdf",
+            "code",
+            "guide",
+            "interview",
+            "interview-practice",
+            "interview-questions",
+            "question-answering",
+            "questions-and-answers",
+            "interview-preparation",
+            "data-structures-and-algorithms",
+            "linux"
+        ]
+    },
+    {
+        "Full name": "yubinbai/leetcode",
+        "Description": " Solutions to Leetcode Online Judge",
+        "Language": "Java",
+        "Topics": [
+            "interview",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "rongweihe/CS_Offer",
+        "Description": "后台开发基础知识总结（春招/秋招）",
+        "Language": null,
+        "Topics": [
+            "interview",
+            "cpp",
+            "programming-language",
+            "datastructures",
+            "algorithms",
+            "mysql",
+            "computer-science",
+            "linux",
+            "os",
+            "operating-system",
+            "interview-questions",
+            "interview-project",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "shihsyun/codility_lessons",
+        "Description": "Codility Lesson1~Lesson17 100% solutions with Python3  除正確解答外comment裡有解題的思考過程",
+        "Language": "Python",
+        "Topics": [
+            "python",
+            "python3",
+            "py3",
+            "algorithms",
+            "algorithms-datastructures",
+            "algorithm-challenge",
+            "coding-challenge",
+            "coding-interviews",
+            "codility-lessons-exercises",
+            "codility-python",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-test"
+        ]
+    },
+    {
+        "Full name": "oleg-koval/counter-interview.dev",
+        "Description": "a collaborative collection of interview questions collected from both sides of the game: Interviewer(s) and Interviewee.",
+        "Language": "CSS",
+        "Topics": [
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interviews",
+            "interview-preparation",
+            "work",
+            "jobsearch",
+            "jobseeker",
+            "interviewer",
+            "interviewee",
+            "collaborative",
+            "collaborative-research",
+            "collaborative-project",
+            "collection",
+            "awesome",
+            "awesome-list",
+            "collaborative-editing",
+            "collaborative-learning",
+            "collaborative-writing",
+            "hacktoberfest"
+        ]
+    },
+    {
+        "Full name": "DenisLitvin/iOS-Interview",
+        "Description": "📚 Comprehensive list of questions and problems to pass an interview for the iOS Developer position",
+        "Language": "Swift",
+        "Topics": [
+            "interview",
+            "interview-preparation",
+            "interview-practice",
+            "interview-questions",
+            "ios-interview",
+            "swift",
+            "objcective-c",
+            "interview-test"
+        ]
+    },
+    {
+        "Full name": "charulagrl/data-structures-and-algorithms",
+        "Description": "Python implementation of common algorithms and data structures interview questions",
+        "Language": "Python",
+        "Topics": [
+            "algorithms",
+            "datastructures",
+            "data-structures",
+            "interview-questions",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "yanglr/leetcode-ac",
+        "Description": ":octocat: leetcode-ac | LeetCode AC solutions | LeetCode+剑指offer+程序员面试金典careerup(cc189)",
+        "Language": "C++",
+        "Topics": [
+            "leetcode",
+            "algorithm",
+            "leetcode-ac",
+            "datastructures-algorithms",
+            "cpp11",
+            "easy-to-understand",
+            "modern-cpp",
+            "leetcode-solutions",
+            "leetcode-java",
+            "leetcode-csharp",
+            "leetcode-python3",
+            "interview-practice",
+            "interview-questions",
+            "interview-preparation",
+            "leetcode-problems-solutions",
+            "leetcode-problems",
+            "awesome-leetcode",
+            "91algo",
+            "leetcode-solutions-csharp"
+        ]
+    },
+    {
+        "Full name": "Gauthamjm007/Backend-NodeJS-Golang-Interview_QA",
+        "Description": "A collection of Node JS and Golang Backend interview questions please feel free to fork and contribute to this repository",
+        "Language": "JavaScript",
+        "Topics": [
+            "node-js",
+            "callback-hells",
+            "interview-questions",
+            "interview-practice",
+            "questions-and-answers",
+            "expressjs",
+            "mongodb",
+            "express-js",
+            "mongoose",
+            "golang",
+            "go"
+        ]
+    },
+    {
+        "Full name": "mohammedjasam/Technical-Interview-Guide",
+        "Description": "My learning material for technical interviews!",
+        "Language": "C++",
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "coding",
+            "competitive-programming",
+            "company-profile",
+            "java",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "book-solutions",
+            "cracking-the-coding-interview",
+            "introduction-to-algorithms",
+            "interview-prep",
+            "interviews",
+            "coding-challenge",
+            "coding-interviews",
+            "coding-challenges"
+        ]
+    },
+    {
+        "Full name": "kumaransg/LLD",
+        "Description": "Curated Collection of all Low level design Questions and implementation asked in major Tech companies , Get yourself prepared for the LLD round and ace the interview.",
+        "Language": "Java",
+        "Topics": [
+            "low-level-design",
+            "machine-coding",
+            "object-oriented-design",
+            "object-oriented-programming",
+            "lld",
+            "interview-preparation",
+            "system-design",
+            "low-level-design-problems",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "sunil12738/frontend-developer-interview-questions",
+        "Description": "A list of helpful frontend related interview questions you can use to test yourself, prepare for interviews etc.",
+        "Language": null,
+        "Topics": [
+            "interview-questions",
+            "interview-practice",
+            "javascript",
+            "javascript-interview-questions",
+            "frontend-interview-questions",
+            "html-css-javascript",
+            "html-interview-questions",
+            "react-interview-questions"
+        ]
+    },
+    {
+        "Full name": "usmanovs/Salesforce-Interview-Handbook",
+        "Description": "🌐 Project to help aspiring Salesforce professionals land their dream job!",
+        "Language": null,
+        "Topics": [
+            "salesforce",
+            "salesforce-developers",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "salesforce-apex"
+        ]
+    },
+    {
+        "Full name": "luceCoding/Programming-Interview-Questions-in-Python",
+        "Description": "Python programming interview questions.",
+        "Language": null,
+        "Topics": [
+            "python",
+            "leetcode",
+            "leetcode-python",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "python-interview-questions",
+            "python3"
+        ]
+    },
+    {
+        "Full name": "Kirchhoff-/Android-Interview-Questions",
+        "Description": "The curated list of Android Developer interview questions and answers",
+        "Language": null,
+        "Topics": [
+            "android",
+            "java",
+            "kotlin",
+            "android-interview-practice",
+            "android-interview-questions",
+            "android-interview",
+            "interview-practice",
+            "interview-preparation",
+            "interview",
+            "interview-questions",
+            "rxjava",
+            "rxandroid"
+        ]
+    },
+    {
+        "Full name": "SaadAAkash/Android-Interview-Essentials",
+        "Description": "💼📝⚡️Mobile App Developer Interviews Q&A Cheat Sheet - An awesome curation of Q&A, code examples, resources - categorized based on expertise (Continuously Updating..) ",
+        "Language": null,
+        "Topics": [
+            "kotlin",
+            "kotlin-android",
+            "android",
+            "viewmodel",
+            "mvvm",
+            "android-interview-questions",
+            "android-interview-practice",
+            "android-interviews",
+            "android-interview",
+            "interview-questions",
+            "interview",
+            "flutter",
+            "androidx",
+            "java",
+            "android-architecture-components",
+            "android-development",
+            "interview-practice",
+            "interview-preparation"
+        ]
+    },
+    {
+        "Full name": "proyecto26/TheJobInterviewGuide",
+        "Description": "The Job Interview Guide 💼",
+        "Language": null,
+        "Topics": [
+            "interview",
+            "interview-questions",
+            "interview-preparation",
+            "interview-practice",
+            "interview-prep",
+            "interviewing",
+            "interviews",
+            "guide",
+            "interview-guide",
+            "coding-interviews",
+            "coding-challenges",
+            "data-structures",
+            "computer-science",
+            "javascript-interview-questions",
+            "frontend-interview",
+            "system-design-interview",
+            "system-design-questions",
+            "behavioral-interviews",
+            "job-interviews",
+            "job-interview-challenges"
+        ]
+    },
+    {
+        "Full name": "jisungbin/Android-Interview-Study-2021",
+        "Description": "🤓 2021~ 안드로이드 취직 대비 면접 공부 기록터 📖",
+        "Language": null,
+        "Topics": [
+            "programming-study",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "android",
+            "sungbin"
+        ]
+    },
+    {
+        "Full name": "surajr/CodingInterview",
+        "Description": "Solutions to Leetcode, CareerCup Coding problems",
+        "Language": "Java",
+        "Topics": [
+            "leetcode-java",
+            "leetcode",
+            "leetcode-solutions",
+            "careercup",
+            "coding-interviews",
+            "interview-questions",
+            "interview-practice",
+            "technical-coding-interview",
+            "technical-interviews"
+        ]
+    },
+    {
+        "Full name": "WebPredict/angular-2-interview-questions",
+        "Description": "Angular 2+ Interview Questions... And Answers!",
+        "Language": null,
+        "Topics": [
+            "angular",
+            "angular2",
+            "angular-framework",
+            "interview-questions",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "kiwidamien/SQL_practice",
+        "Description": "A collection of SQL practice problems for interviews",
+        "Language": "Python",
+        "Topics": [
+            "interview-practice",
+            "sql"
+        ]
+    },
+    {
+        "Full name": "sachin-duhan26/COMPETITVE-PROGRAMMING",
+        "Description": "Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. This repo contains the Detailed Explanation and implementation of Various Coding problems on various platforms in C++",
+        "Language": "C++",
+        "Topics": [
+            "c-plus-plus",
+            "data-structures-and-algorithms",
+            "stl",
+            "competitive-programming",
+            "problem-solving",
+            "interview-questions",
+            "interview-practice",
+            "leetcode-solutions",
+            "leetcode-cpp",
+            "leetcode-practice",
+            "leetcode-questions",
+            "codeche",
+            "codechef-solutions",
+            "a2oj",
+            "algorithms",
+            "codeforces-solutions",
+            "geeksforgeeks",
+            "geeksforgeeks-solutions",
+            "interviewbit",
+            "interviewbit-solutions"
+        ]
+    },
+    {
+        "Full name": "apoterenko/javascript-interview-questions",
+        "Description": "Essential JavaScript Interview Questions",
+        "Language": null,
+        "Topics": [
+            "javascript",
+            "interview-practice",
+            "interview"
+        ]
+    },
+    {
+        "Full name": "revpwn/JobInterviewAlgorithms",
+        "Description": "A directory of classic algorithms that you will find when interviewing for software engineering jobs.",
+        "Language": "C++",
+        "Topics": [
+            "algorithm",
+            "jobs",
+            "engineering-jobs",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "keep-practicing/leetcode-go",
+        "Description": "✏️ Golang solution for leetcode algorithm problems 📚(continually updating 💪 😃).",
+        "Language": "Go",
+        "Topics": [
+            "leetcode-solutions",
+            "leetcode-go",
+            "leetcode-golang",
+            "leetcode",
+            "leetcode-practice",
+            "leetcode-questions",
+            "algorithms",
+            "interview-practice",
+            "interview-questions",
+            "interview",
+            "sorted-arrays"
+        ]
+    },
+    {
+        "Full name": "akashmodak97/Competitive-Coding-and-Interview-Problems",
+        "Description": "This repo contains some problem solutions from different popular coding platforms like Code Chef, Leet Code, Hacker Blocks,etc.",
+        "Language": "C++",
+        "Topics": [
+            "competitive-programming",
+            "competitive-coding",
+            "interview-questions",
+            "interview-preparation",
+            "cplusplus",
+            "programming",
+            "leetcode-solutions",
+            "leetcode-cpp",
+            "codechef-solutions",
+            "codechef",
+            "hackerblocks",
+            "hackerrank",
+            "hackerrank-solutions",
+            "backtracking-algorithm",
+            "interview-practice",
+            "interview-prep",
+            "cplusplus-11",
+            "interviewbit",
+            "interviewbit-solutions",
+            "spoj-solutions"
+        ]
+    },
+    {
+        "Full name": "NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit",
+        "Description": "This repo has various data structures and algorithms implementations and problems around that for preparing the coding interviews. 🚀 👨‍💻💻 🚩 ",
+        "Language": "Java",
+        "Topics": [
+            "java",
+            "data-structures",
+            "algorithm",
+            "problem-solving",
+            "interview-preparation",
+            "interview-prep",
+            "interview-practice",
+            "coding-blocks",
+            "coding-interviews",
+            "coding",
+            "programming",
+            "leetcode",
+            "leetcode-java",
+            "interview-preparation-resources",
+            "geeksforgeeks",
+            "java-data-structure",
+            "algorithms-implemented",
+            "codeforces",
+            "codechef"
+        ]
+    },
+    {
+        "Full name": "BarstoolSports/fullstack-challenge",
+        "Description": "Barstool Fullstack Interview Challenge",
+        "Language": "HTML",
+        "Topics": [
+            "nodejs",
+            "react",
+            "mongodb",
+            "expressjs",
+            "interview-questions",
+            "interview-practice"
+        ]
+    },
+    {
+        "Full name": "adityaarakeri/Interview-solved",
+        "Description": " 🌴 Solutions to few of the interview coding challenges in Python 🐍",
+        "Language": "Python",
+        "Topics": [
+            "interview-practice",
+            "solved",
+            "hacktoberfest",
+            "hacktoberfest2020"
+        ]
+    },
+    {
+        "Full name": "LearnTeachCode/algorithms-group",
+        "Description": "Resources and notes for the algorithms study group with Learn Teach Code (Created by @ThuyNT13, @mtroiani, @LearningNerd, @nurarenke and @loorinm)",
+        "Language": "JavaScript",
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "interview-practice",
+            "tech-interviews"
+        ]
+    },
+    {
+        "Full name": "ryanmcdermott/katas",
+        "Description": ":school: Coding katas",
+        "Language": "C++",
+        "Topics": [
+            "kata",
+            "algorithms",
+            "data-structures",
+            "cpp",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation"
+        ]
+    },
+    {
+        "Full name": "bezzad/foobar.withgoogle",
+        "Description": "My Google Foo Bar Challenges",
+        "Language": "Python",
+        "Topics": [
+            "google",
+            "foobar",
+            "interview-practice",
+            "interview-questions",
+            "challenges"
+        ]
+    },
+    {
+        "Full name": "dheeraj-2000/dsalgo",
+        "Description": "Contains Algorithms useful for interview preparation, various practice problems of Arrays, Stacks, queue etc.  Contributors are Welcome but, DO NOT MAKE THIS REPO ACT LIKE A SOURCE OF +1.",
+        "Language": "C++",
+        "Topics": [
+            "algorithms",
+            "firstpullrequest",
+            "interview-practice",
+            "arrays",
+            "hacktoberfest",
+            "hacktoberfest2021"
+        ]
+    },
+    {
+        "Full name": "algoholics-ntua/algorithms",
+        "Description": "Resources for reading & solved problems ",
+        "Language": "C++",
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "ioi",
+            "icpc",
+            "algorithms-implemented",
+            "interview-practice",
+            "interview-preparation",
+            "hackerrank",
+            "hackerrank-solutions",
+            "spoj",
+            "geeksforgeeks",
+            "codechef"
+        ]
+    },
+    {
+        "Full name": "xiaoyunyang/coding-challenges",
+        "Description": "solutions to coding challenges and algorithm and data structure building blocks",
+        "Language": "JavaScript",
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "interview-practice",
+            "interview-questions"
+        ]
+    },
+    {
+        "Full name": "hevalhazalkurt/codewars_python_solutions",
+        "Description": "My CodeWars solutions in Python. ",
+        "Language": "Python",
+        "Topics": [
+            "codewars",
+            "codewars-solutions",
+            "codewars-kata-solution",
+            "codewars-python",
+            "algorithms",
+            "algorithm-challenges",
+            "python",
+            "problem-solving",
+            "problems",
+            "interview",
+            "interview-questions",
+            "interview-practice",
+            "practice",
+            "practice-python",
+            "interview-preparation",
+            "algorithm",
+            "python3"
+        ]
+    },
+    {
+        "Full name": "aershov24/typescript-interview-questions",
+        "Description": "🔴 TypeScript Interview Questions and Answered to prepare for your next Web/Angular developer interview",
+        "Language": null,
+        "Topics": [
+            "typescript",
+            "javascript",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interviewing"
+        ]
+    },
+    {
+        "Full name": "IvanLu1024/LeetCode",
+        "Description": ":chart_with_upwards_trend: 关于LeetCode的做题记录和笔记（Updating....）",
+        "Language": "Java",
+        "Topics": [
+            "leetcode-java",
+            "interview-practice",
+            "data-structures"
+        ]
+    },
+    {
+        "Full name": "OpenCodeFoundation/interview-tips",
+        "Description": "A collection of awesome Interview Tips and Questions",
+        "Language": null,
+        "Topics": [
+            "interview-questions",
+            "interview-preparation",
+            "interview",
+            "interview-practice",
+            "cv-template",
+            "resume-template",
+            "cv-bank"
+        ]
+    },
+    {
+        "Full name": "fatosmorina/machine-learning-exams",
+        "Description": "This repository contains links to machine learning exams, homework assignments, and exercises that can help you test your understanding.",
+        "Language": null,
+        "Topics": [
+            "ml",
+            "machine-learning",
+            "deep-learning",
+            "machinelearning",
+            "stanford",
+            "nlp",
+            "nlp-machine-learning",
+            "exam",
+            "students",
+            "questions-and-answers",
+            "technical-test",
+            "interview-questions",
+            "interview-practice",
+            "interview-preparation",
+            "interviews"
+        ]
+    },
+    {
+        "Full name": "tkssharma/hackerrank-full-stack",
+        "Description": "Crack Interviews Full Stack on HackerRank",
+        "Language": "JavaScript",
+        "Topics": [
+            "angular",
+            "react",
+            "testing",
+            "stack",
+            "hackerrank",
+            "interview",
+            "interview-practice"
+        ]
+    }
+]

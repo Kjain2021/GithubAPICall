@@ -46,6 +46,6 @@ for repo in top_repo:
     repo_list.append(get_repo_d(repo))
 
 # to create a JSON file to test the repo list info as its extensive to print 
-with open(f'{TOPIC}.json', 'w') as f:
-    json.dump(repo_list, f, ensure_ascii=False)
+with open(f'{TOPIC}.json', 'w', encoding='utf-8') as f:
+    json.dump(repo_list, f, ensure_ascii=False, indent=4)
 
