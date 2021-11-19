@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-g = Github("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")
+g = Github("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")
 #g = Github("<Please add your token>")
 # please generate your personal access token 
 print("testing github call")
@@ -45,7 +45,14 @@ repo_list = []
 for repo in top_repo:
     repo_list.append(get_repo_d(repo))
 
+
+
 # to create a JSON file to test the repo list info as its extensive to print 
 with open(f'{TOPIC}.json', 'w', encoding='utf-8') as f:
     json.dump(repo_list, f, ensure_ascii=False, indent=4)
 
+#transforming and storing data in Pandas Dataframe
+repos_df = pd.DataFrame(repo_list)
+
+#printing it to test it  
+pprint(repos_df)
