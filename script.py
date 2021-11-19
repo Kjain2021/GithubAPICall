@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-g = Github("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")
+g = Github("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")
 #g = Github("<Please add your token>")
 # please generate your personal access token 
 print("testing github call")
@@ -25,7 +25,6 @@ def get_repo_d(repo):
     return {
             "Full name": repo.full_name,
             "Description": repo.description,
-            "Date created": repo.created_at,
             "Language": repo.language,
             "Topics": repo.get_topics(),
             }
@@ -39,7 +38,14 @@ for i, repo in enumerate(all_repo):
     top_repo.append(repo)
     if i == 99:
         break
-pprint(top_repo)
+#pprint(top_repo)
 
+# add more fields of the hundred repos
+repo_list = []
+for repo in top_repo:
+    repo_list.append(get_repo_d(repo))
 
+# to create a JSON file to test the repo list info as its extensive to print 
+with open(f'{TOPIC}.json', 'w') as f:
+    json.dump(repo_list, f, ensure_ascii=False)
 
