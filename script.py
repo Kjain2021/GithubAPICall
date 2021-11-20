@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-g = Github("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")
+g = Github("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")
 #g = Github("<Please add your token>")
 # please generate your personal access token 
 print("testing github call")
@@ -55,4 +55,11 @@ with open(f'{TOPIC}.json', 'w', encoding='utf-8') as f:
 repos_df = pd.DataFrame(repo_list)
 
 #printing it to test it  
-pprint(repos_df)
+#pprint(repos_df)
+
+#checking retrieval of data from dataframe 
+topics = repos_df.Topics
+print(topics)
+
+
+
