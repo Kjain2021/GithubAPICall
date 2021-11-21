@@ -13,4 +13,4 @@ Essential requirements for this project to run:
 *Please generate your own Github token to run this project*
 The topic can be changed in the program. 
 
-The plan: To use PyVis to create a graph of repos filtered on topics/language  and size of nodes depending on the stars, its to measure how many repos are out there and to help person find the repos easily. 
+The plan: To use PyVis to create a network graph of repos filtered on topics/language , its to measure how many repos are out there and to help person find the repos with the given topic easily. 
