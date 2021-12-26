@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-g = Github("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")
+g = Github("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")
 #g = Github("<Please add your token>")
 # please generate your personal access token 
 print("testing github call")
