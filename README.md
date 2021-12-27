@@ -9,6 +9,7 @@ Essential requirements for this project to run:
 2. Install pip
 3. pip install pygithub 
 4. pip install pandas 
+5. pip install pyvis
 
 *Please generate your own Github token to run this project*
 The topic can be changed in the program. 
