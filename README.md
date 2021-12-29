@@ -11,6 +11,8 @@ Essential requirements for this project to run:
 4. pip install pandas 
 5. pip install pyvis
 
+After installing pip, you can run the install.sh runscript using ./install.sh to install pygithub, pandas and pyvis. Then generate your token and run the ./run.sh
+
 *Please generate your own Github token to run this project*
 The topic can be changed in the program. 
 
