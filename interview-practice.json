@@ -556,6 +556,17 @@
         ]
     },
     {
+        "Full name": "bcherny/frontend-interview-questions",
+        "Description": "Answers for https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)",
+        "Language": "JavaScript",
+        "Topics": [
+            "javascript",
+            "interview-questions",
+            "interview-practice",
+            "frontend"
+        ]
+    },
+    {
         "Full name": "connor11528/cs-fundamentals",
         "Description": "🎓 Data structures and algorithms ",
         "Language": "JavaScript",
@@ -580,17 +591,6 @@
             "job-interviews",
             "jobsearch",
             "job-hunting"
-        ]
-    },
-    {
-        "Full name": "bcherny/frontend-interview-questions",
-        "Description": "Answers for https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)",
-        "Language": "JavaScript",
-        "Topics": [
-            "javascript",
-            "interview-questions",
-            "interview-practice",
-            "frontend"
         ]
     },
     {
@@ -646,25 +646,6 @@
         ]
     },
     {
-        "Full name": "Just-A-Visitor/Algorithmic-Pseudocode",
-        "Description": "This repository contains the pseudocode(pdf) of various algorithms and data structures necessary for Interview Preparation and Competitive Coding",
-        "Language": "TeX",
-        "Topics": [
-            "algorithms",
-            "pseudocode",
-            "data-structures",
-            "algorithms-and-data-structures",
-            "interview-questions",
-            "interview-preparation",
-            "leetcode",
-            "interviews",
-            "interview-practice",
-            "coding-interviews",
-            "latex",
-            "hacktoberfest"
-        ]
-    },
-    {
         "Full name": "rampatra/Algorithms-and-Data-Structures-in-Java",
         "Description": "Algorithms and Data Structures in Java",
         "Language": "Java",
@@ -689,6 +670,25 @@
             "blockchain-demo",
             "blockchain-java",
             "leetcode"
+        ]
+    },
+    {
+        "Full name": "Just-A-Visitor/Algorithmic-Pseudocode",
+        "Description": "This repository contains the pseudocode(pdf) of various algorithms and data structures necessary for Interview Preparation and Competitive Coding",
+        "Language": "TeX",
+        "Topics": [
+            "algorithms",
+            "pseudocode",
+            "data-structures",
+            "algorithms-and-data-structures",
+            "interview-questions",
+            "interview-preparation",
+            "leetcode",
+            "interviews",
+            "interview-practice",
+            "coding-interviews",
+            "latex",
+            "hacktoberfest"
         ]
     },
     {
@@ -1273,18 +1273,6 @@
         ]
     },
     {
-        "Full name": "charulagrl/data-structures-and-algorithms",
-        "Description": "Python implementation of common algorithms and data structures interview questions",
-        "Language": "Python",
-        "Topics": [
-            "algorithms",
-            "datastructures",
-            "data-structures",
-            "interview-questions",
-            "interview-practice"
-        ]
-    },
-    {
         "Full name": "yanglr/leetcode-ac",
         "Description": ":octocat: leetcode-ac | LeetCode AC solutions | LeetCode+剑指offer+程序员面试金典careerup(cc189)",
         "Language": "C++",
@@ -1308,6 +1296,18 @@
             "awesome-leetcode",
             "91algo",
             "leetcode-solutions-csharp"
+        ]
+    },
+    {
+        "Full name": "charulagrl/data-structures-and-algorithms",
+        "Description": "Python implementation of common algorithms and data structures interview questions",
+        "Language": "Python",
+        "Topics": [
+            "algorithms",
+            "datastructures",
+            "data-structures",
+            "interview-questions",
+            "interview-practice"
         ]
     },
     {
@@ -1425,7 +1425,7 @@
         ]
     },
     {
-        "Full name": "jisungbin/Android-Interview-Study-2021",
+        "Full name": "jisungbin/Android-Interview-Study-2022",
         "Description": "🤓 2021~ 안드로이드 취직 대비 면접 공부 기록터 📖",
         "Language": null,
         "Topics": [
@@ -1712,6 +1712,15 @@
         ]
     },
     {
+        "Full name": "Egolper/beginners-tech-interview",
+        "Description": "CS 면접 및 인성면접 준비자료입니다",
+        "Language": "JavaScript",
+        "Topics": [
+            "interview-practice",
+            "interview-questions"
+        ]
+    },
+    {
         "Full name": "hevalhazalkurt/codewars_python_solutions",
         "Description": "My CodeWars solutions in Python. ",
         "Language": "Python",
@@ -1803,20 +1812,6 @@
             "leetcode-java",
             "interview-practice",
             "data-structures"
-        ]
-    },
-    {
-        "Full name": "OpenCodeFoundation/interview-tips",
-        "Description": "A collection of awesome Interview Tips and Questions",
-        "Language": null,
-        "Topics": [
-            "interview-questions",
-            "interview-preparation",
-            "interview",
-            "interview-practice",
-            "cv-template",
-            "resume-template",
-            "cv-bank"
         ]
     }
 ]

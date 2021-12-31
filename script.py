@@ -2,9 +2,16 @@ from github import Github
 from pprint import pprint
 import pandas as pd
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv('set.env')
 
 
-g = Github("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")
+tk = os.getenv('TOKEN')
+g = Github(tk)
+
+#g = Github("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")
 #g = Github("<Please add your token>")
 # please generate your personal access token 
 print("testing github call")
