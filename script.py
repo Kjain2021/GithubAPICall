@@ -34,6 +34,7 @@ def get_repo_d(repo):
             "Description": repo.description,
             "Language": repo.language,
             "Topics": repo.get_topics(),
+            "Number of stars": repo.stargazers_count,
             }
 
 # creating a list of all the repos collected
