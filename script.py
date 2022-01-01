@@ -61,7 +61,7 @@ with open(f'{TOPIC}.json', 'w', encoding='utf-8') as f:
 
 #transforming and storing data in Pandas Dataframe
 repos_df = pd.DataFrame(repo_list)
-repos_df.to_csv('test.csv')
+repos_df.to_csv(TOPIC+'.csv')
 
 #printing it to test it  
 #pprint(repos_df)
