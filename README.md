@@ -1,6 +1,6 @@
 # GithubAPICall
 Hi!
-A very basic API call is being made using Python currently, just to get top 100 repositories with the topic, "Interview-practice", the data being collected is stored in a json file and Pandas Dataframe. 
+A very basic API call is being made using Python currently, just to get top 100 repositories with the topic, "Interview-practice", the data being collected is stored in a json file, Pandas Dataframe and .csv(just for viewing, not used for visualisation). 
 
 <img width="1314" alt="Screen Shot 2022-01-03 at 5 31 33 PM" src="https://user-images.githubusercontent.com/91281025/147928281-57546605-a0e2-4178-96d5-707fa6a06e00.png">
 
