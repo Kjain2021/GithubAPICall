@@ -18,7 +18,7 @@
             "interview-questions",
             "interview-practice"
         ],
-        "Number of stars": 157083
+        "Number of stars": 157103
     },
     {
         "Full name": "yangshun/tech-interview-handbook",
@@ -33,7 +33,7 @@
             "algorithms",
             "hacktoberfest"
         ],
-        "Number of stars": 63037
+        "Number of stars": 63042
     },
     {
         "Full name": "kdn251/interviews",
@@ -83,7 +83,7 @@
             "angularjs-interview-questions",
             "android-interview-questions"
         ],
-        "Number of stars": 44527
+        "Number of stars": 44530
     },
     {
         "Full name": "binhnguyennus/awesome-scalability",
@@ -111,7 +111,7 @@
             "distributed-systems",
             "machine-learning"
         ],
-        "Number of stars": 36861
+        "Number of stars": 36865
     },
     {
         "Full name": "donnemartin/interactive-coding-challenges",
@@ -129,7 +129,7 @@
             "interview-practice",
             "competitive-programming"
         ],
-        "Number of stars": 24444
+        "Number of stars": 24446
     },
     {
         "Full name": "huihut/interview",
@@ -150,7 +150,7 @@
             "operating-system",
             "leetcode"
         ],
-        "Number of stars": 21757
+        "Number of stars": 21759
     },
     {
         "Full name": "chefyuan/algorithm-base",
@@ -183,7 +183,7 @@
             "interview-practice",
             "interview-prep"
         ],
-        "Number of stars": 8258
+        "Number of stars": 8260
     },
     {
         "Full name": "twowaits/SDE-Interview-Questions",
@@ -251,7 +251,7 @@
             "algorithm",
             "java"
         ],
-        "Number of stars": 4459
+        "Number of stars": 4460
     },
     {
         "Full name": "JsonChao/Awesome-Android-Interview",
@@ -350,7 +350,7 @@
             "modern-cpp",
             "leetcode-python"
         ],
-        "Number of stars": 2821
+        "Number of stars": 2822
     },
     {
         "Full name": "SharingSource/LogicStack-LeetCode",
@@ -364,7 +364,7 @@
             "interview-practice",
             "programmers"
         ],
-        "Number of stars": 2435
+        "Number of stars": 2438
     },
     {
         "Full name": "forthespada/InterviewGuide",
@@ -387,7 +387,7 @@
             "pdf",
             "code"
         ],
-        "Number of stars": 2142
+        "Number of stars": 2143
     },
     {
         "Full name": "joowani/binarytree",
@@ -456,7 +456,7 @@
             "exercises",
             "candidates"
         ],
-        "Number of stars": 1667
+        "Number of stars": 1668
     },
     {
         "Full name": "FreeTymeKiyan/LeetCode-Sol-Res",
@@ -622,7 +622,7 @@
             "jobsearch",
             "job-hunting"
         ],
-        "Number of stars": 950
+        "Number of stars": 951
     },
     {
         "Full name": "dashvlas/awesome-ios-interview",
@@ -705,7 +705,7 @@
             "blockchain-java",
             "leetcode"
         ],
-        "Number of stars": 593
+        "Number of stars": 594
     },
     {
         "Full name": "Just-A-Visitor/Algorithmic-Pseudocode",
@@ -743,7 +743,7 @@
             "interview-practice",
             "interviews"
         ],
-        "Number of stars": 544
+        "Number of stars": 545
     },
     {
         "Full name": "aershov24/full-stack-interview-questions",
@@ -761,7 +761,7 @@
             "interview-preparation",
             "interview-test"
         ],
-        "Number of stars": 504
+        "Number of stars": 505
     },
     {
         "Full name": "omonimus1/competitive-programming",
@@ -1854,18 +1854,6 @@
         "Number of stars": 36
     },
     {
-        "Full name": "xiaoyunyang/coding-challenges",
-        "Description": "solutions to coding challenges and algorithm and data structure building blocks",
-        "Language": "JavaScript",
-        "Topics": [
-            "algorithms",
-            "data-structures",
-            "interview-practice",
-            "interview-questions"
-        ],
-        "Number of stars": 33
-    },
-    {
         "Full name": "tkssharma/hackerrank-full-stack",
         "Description": "Crack Interviews Full Stack on HackerRank",
         "Language": "JavaScript",
@@ -1877,6 +1865,18 @@
             "hackerrank",
             "interview",
             "interview-practice"
+        ],
+        "Number of stars": 33
+    },
+    {
+        "Full name": "xiaoyunyang/coding-challenges",
+        "Description": "solutions to coding challenges and algorithm and data structure building blocks",
+        "Language": "JavaScript",
+        "Topics": [
+            "algorithms",
+            "data-structures",
+            "interview-practice",
+            "interview-questions"
         ],
         "Number of stars": 33
     },
@@ -1901,7 +1901,7 @@
             "interview-preparation",
             "interviews"
         ],
-        "Number of stars": 30
+        "Number of stars": 31
     },
     {
         "Full name": "IvanLu1024/LeetCode",
