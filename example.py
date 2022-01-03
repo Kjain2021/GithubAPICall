@@ -1,8 +1,22 @@
-from pyvis import network as net
+from pyvis.network import Network
+import networkx as nx
 from IPython.core.display import display, HTML
-g=net.Network(height='100%', width='100%',heading='testing')
-g.add_node(1)
-g.add_node(2)
-g.add_edge(1,2)
-g.show('index.html')
-display(HTML('index.html'))
+from script import repos_df
+
+nt = Network('100%', '100%', bgcolor='#222222', font_color='white')
+
+G = nx.Graph()
+G.add_node('Interview-practice')
+
+for _, row in repos_df.iterrows():
+    node_name = row['Full name']
+    G.add_node(node_name)
+    G.add_edge('Interview-practice', node_name)
+
+
+
+
+nt.from_nx(G)
+nt.repulsion() 
+nt.show('index.html')
+

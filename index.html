@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
 <center>
-<h1>testing</h1>
+<h1></h1>
 </center>
 
 <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
@@ -14,12 +14,81 @@
         #mynetwork {
             width: 100%;
             height: 100%;
-            background-color: #ffffff;
+            background-color: #222222;
             border: 1px solid lightgray;
             position: relative;
             float: left;
         }
 
+        
+        #loadingBar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width: 100%;
+            height: 100%;
+            background-color:rgba(200,200,200,0.8);
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity:1;
+        }
+
+        #bar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width:20px;
+            height:20px;
+            margin:auto auto auto auto;
+            border-radius:11px;
+            border:2px solid rgba(30,30,30,0.05);
+            background: rgb(0, 173, 246); /* Old browsers */
+            box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+        }
+
+        #border {
+            position:absolute;
+            top:10px;
+            left:10px;
+            width:500px;
+            height:23px;
+            margin:auto auto auto auto;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            border-radius:10px;
+        }
+
+        #text {
+            position:absolute;
+            top:8px;
+            left:530px;
+            width:30px;
+            height:50px;
+            margin:auto auto auto auto;
+            font-size:22px;
+            color: #000000;
+        }
+
+        div.outerBorder {
+            position:relative;
+            top:400px;
+            width:600px;
+            height:44px;
+            margin:auto auto auto auto;
+            border:8px solid rgba(0,0,0,0.1);
+            background: rgb(252,252,252); /* Old browsers */
+            background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+            border-radius:72px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
         
 
         
@@ -31,6 +100,15 @@
 
 <body>
 <div id = "mynetwork"></div>
+
+<div id="loadingBar">
+    <div class="outerBorder">
+        <div id="text">0%</div>
+        <div id="border">
+            <div id="bar"></div>
+        </div>
+    </div>
+</div>
 
 
 <script type="text/javascript">
@@ -50,8 +128,8 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"id": 1, "label": 1, "shape": "dot"}, {"id": 2, "label": 2, "shape": "dot"}]);
-        edges = new vis.DataSet([{"from": 1, "to": 2}]);
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "Interview-practice", "label": "Interview-practice", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "donnemartin/system-design-primer", "label": "donnemartin/system-design-primer", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "yangshun/tech-interview-handbook", "label": "yangshun/tech-interview-handbook", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kdn251/interviews", "label": "kdn251/interviews", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "DopplerHQ/awesome-interview-questions", "label": "DopplerHQ/awesome-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "binhnguyennus/awesome-scalability", "label": "binhnguyennus/awesome-scalability", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "donnemartin/interactive-coding-challenges", "label": "donnemartin/interactive-coding-challenges", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "huihut/interview", "label": "huihut/interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "chefyuan/algorithm-base", "label": "chefyuan/algorithm-base", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "MindorksOpenSource/android-interview-questions", "label": "MindorksOpenSource/android-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "twowaits/SDE-Interview-Questions", "label": "twowaits/SDE-Interview-Questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "mandliya/algorithms_and_data_structures", "label": "mandliya/algorithms_and_data_structures", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "teivah/algodeck", "label": "teivah/algodeck", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "JsonChao/Awesome-Android-Interview", "label": "JsonChao/Awesome-Android-Interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kennymkchan/interview-questions-in-javascript", "label": "kennymkchan/interview-questions-in-javascript", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "NotFound9/interviewGuide", "label": "NotFound9/interviewGuide", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "AweiLoveAndroid/CommonDevKnowledge", "label": "AweiLoveAndroid/CommonDevKnowledge", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kamyu104/LeetCode-Solutions", "label": "kamyu104/LeetCode-Solutions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "SharingSource/LogicStack-LeetCode", "label": "SharingSource/LogicStack-LeetCode", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "forthespada/InterviewGuide", "label": "forthespada/InterviewGuide", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "joowani/binarytree", "label": "joowani/binarytree", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Awesome-Interview/Awesome-Interview", "label": "Awesome-Interview/Awesome-Interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "alexgurr/react-coding-challenges", "label": "alexgurr/react-coding-challenges", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "FreeTymeKiyan/LeetCode-Sol-Res", "label": "FreeTymeKiyan/LeetCode-Sol-Res", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "mre/the-coding-interview", "label": "mre/the-coding-interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "puncsky/system-design-and-architecture", "label": "puncsky/system-design-and-architecture", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "yuzhoujr/leetcode", "label": "yuzhoujr/leetcode", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "arpankg/ctci-python-solutions", "label": "arpankg/ctci-python-solutions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "marcosfede/algorithms", "label": "marcosfede/algorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "liuyubobobo/Play-with-Algorithm-Interview", "label": "liuyubobobo/Play-with-Algorithm-Interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "bcherny/frontend-interview-questions", "label": "bcherny/frontend-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "connor11528/cs-fundamentals", "label": "connor11528/cs-fundamentals", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "dashvlas/awesome-ios-interview", "label": "dashvlas/awesome-ios-interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "onthecodepath/iOS-Interview-Questions", "label": "onthecodepath/iOS-Interview-Questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kamyu104/LintCode", "label": "kamyu104/LintCode", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "rampatra/Algorithms-and-Data-Structures-in-Java", "label": "rampatra/Algorithms-and-Data-Structures-in-Java", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Just-A-Visitor/Algorithmic-Pseudocode", "label": "Just-A-Visitor/Algorithmic-Pseudocode", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "alirezadir/machine-learning-interview-enlightener", "label": "alirezadir/machine-learning-interview-enlightener", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "aershov24/full-stack-interview-questions", "label": "aershov24/full-stack-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "omonimus1/competitive-programming", "label": "omonimus1/competitive-programming", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "stacygohyunsi/algorithms-primer", "label": "stacygohyunsi/algorithms-primer", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "khan4019/angular-interview-questions", "label": "khan4019/angular-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "karansaxena/STL_Cheat_Sheets", "label": "karansaxena/STL_Cheat_Sheets", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "sid24rane/System-Design-Interview-Questions", "label": "sid24rane/System-Design-Interview-Questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "DivyaGodayal/CoderChef-Kitchen", "label": "DivyaGodayal/CoderChef-Kitchen", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "JiayangWu/LeetCode-Python", "label": "JiayangWu/LeetCode-Python", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "brndnmtthws/cracking-the-coding-interview-rust", "label": "brndnmtthws/cracking-the-coding-interview-rust", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "warycat/rustgym", "label": "warycat/rustgym", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "MahdiMashrur/Awesome-Coding-Interview-Question-Patterns", "label": "MahdiMashrur/Awesome-Coding-Interview-Question-Patterns", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "n3a9/google-foobar", "label": "n3a9/google-foobar", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "AlgorithmCrackers/Interview-Questions", "label": "AlgorithmCrackers/Interview-Questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "thundergolfer/interview-with-python", "label": "thundergolfer/interview-with-python", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Java-aid/Interview-Preparations", "label": "Java-aid/Interview-Preparations", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI", "label": "harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "lesywix/oh-my-python", "label": "lesywix/oh-my-python", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "gdutxiaoxu/AndroidGuide", "label": "gdutxiaoxu/AndroidGuide", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore", "label": "srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "rongweihe/CS_Offer", "label": "rongweihe/CS_Offer", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "samgh/Byte-by-Byte-Solutions", "label": "samgh/Byte-by-Byte-Solutions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "rongweihe/CPPNotes", "label": "rongweihe/CPPNotes", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "r1cc4rdo/daily_coding_problem", "label": "r1cc4rdo/daily_coding_problem", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "javadhme/android-interview-questions", "label": "javadhme/android-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "yubinbai/leetcode", "label": "yubinbai/leetcode", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kumaransg/LLD", "label": "kumaransg/LLD", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "shihsyun/codility_lessons", "label": "shihsyun/codility_lessons", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "oleg-koval/counter-interview.dev", "label": "oleg-koval/counter-interview.dev", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "DenisLitvin/iOS-Interview", "label": "DenisLitvin/iOS-Interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Gauthamjm007/Backend-NodeJS-Golang-Interview_QA", "label": "Gauthamjm007/Backend-NodeJS-Golang-Interview_QA", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "yanglr/leetcode-ac", "label": "yanglr/leetcode-ac", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "charulagrl/data-structures-and-algorithms", "label": "charulagrl/data-structures-and-algorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "mohammedjasam/Technical-Interview-Guide", "label": "mohammedjasam/Technical-Interview-Guide", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "sunil12738/frontend-developer-interview-questions", "label": "sunil12738/frontend-developer-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "usmanovs/Salesforce-Interview-Handbook", "label": "usmanovs/Salesforce-Interview-Handbook", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "luceCoding/Programming-Interview-Questions-in-Python", "label": "luceCoding/Programming-Interview-Questions-in-Python", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Kirchhoff-/Android-Interview-Questions", "label": "Kirchhoff-/Android-Interview-Questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "proyecto26/TheJobInterviewGuide", "label": "proyecto26/TheJobInterviewGuide", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "jisungbin/Android-Interview-Study-2022", "label": "jisungbin/Android-Interview-Study-2022", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "SaadAAkash/Android-Interview-Essentials", "label": "SaadAAkash/Android-Interview-Essentials", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "surajr/CodingInterview", "label": "surajr/CodingInterview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "WebPredict/angular-2-interview-questions", "label": "WebPredict/angular-2-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "kiwidamien/SQL_practice", "label": "kiwidamien/SQL_practice", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "sachin-duhan26/COMPETITVE-PROGRAMMING", "label": "sachin-duhan26/COMPETITVE-PROGRAMMING", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "apoterenko/javascript-interview-questions", "label": "apoterenko/javascript-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "akashmodak97/Competitive-Coding-and-Interview-Problems", "label": "akashmodak97/Competitive-Coding-and-Interview-Problems", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "revpwn/JobInterviewAlgorithms", "label": "revpwn/JobInterviewAlgorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "keep-practicing/leetcode-go", "label": "keep-practicing/leetcode-go", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "dheeraj-2000/dsalgo", "label": "dheeraj-2000/dsalgo", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit", "label": "NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "BarstoolSports/fullstack-challenge", "label": "BarstoolSports/fullstack-challenge", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "algoholics-ntua/algorithms", "label": "algoholics-ntua/algorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "adityaarakeri/Interview-solved", "label": "adityaarakeri/Interview-solved", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "bezzad/foobar.withgoogle", "label": "bezzad/foobar.withgoogle", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "LearnTeachCode/algorithms-group", "label": "LearnTeachCode/algorithms-group", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Egolper/beginners-tech-interview", "label": "Egolper/beginners-tech-interview", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "ryanmcdermott/katas", "label": "ryanmcdermott/katas", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "hevalhazalkurt/codewars_python_solutions", "label": "hevalhazalkurt/codewars_python_solutions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "aershov24/typescript-interview-questions", "label": "aershov24/typescript-interview-questions", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "xiaoyunyang/coding-challenges", "label": "xiaoyunyang/coding-challenges", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "tkssharma/hackerrank-full-stack", "label": "tkssharma/hackerrank-full-stack", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "fatosmorina/machine-learning-exams", "label": "fatosmorina/machine-learning-exams", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "IvanLu1024/LeetCode", "label": "IvanLu1024/LeetCode", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "Interview-practice", "to": "donnemartin/system-design-primer", "weight": 1}, {"from": "Interview-practice", "to": "yangshun/tech-interview-handbook", "weight": 1}, {"from": "Interview-practice", "to": "kdn251/interviews", "weight": 1}, {"from": "Interview-practice", "to": "DopplerHQ/awesome-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "binhnguyennus/awesome-scalability", "weight": 1}, {"from": "Interview-practice", "to": "donnemartin/interactive-coding-challenges", "weight": 1}, {"from": "Interview-practice", "to": "huihut/interview", "weight": 1}, {"from": "Interview-practice", "to": "chefyuan/algorithm-base", "weight": 1}, {"from": "Interview-practice", "to": "MindorksOpenSource/android-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "twowaits/SDE-Interview-Questions", "weight": 1}, {"from": "Interview-practice", "to": "mandliya/algorithms_and_data_structures", "weight": 1}, {"from": "Interview-practice", "to": "teivah/algodeck", "weight": 1}, {"from": "Interview-practice", "to": "JsonChao/Awesome-Android-Interview", "weight": 1}, {"from": "Interview-practice", "to": "kennymkchan/interview-questions-in-javascript", "weight": 1}, {"from": "Interview-practice", "to": "NotFound9/interviewGuide", "weight": 1}, {"from": "Interview-practice", "to": "AweiLoveAndroid/CommonDevKnowledge", "weight": 1}, {"from": "Interview-practice", "to": "kamyu104/LeetCode-Solutions", "weight": 1}, {"from": "Interview-practice", "to": "SharingSource/LogicStack-LeetCode", "weight": 1}, {"from": "Interview-practice", "to": "forthespada/InterviewGuide", "weight": 1}, {"from": "Interview-practice", "to": "joowani/binarytree", "weight": 1}, {"from": "Interview-practice", "to": "Awesome-Interview/Awesome-Interview", "weight": 1}, {"from": "Interview-practice", "to": "alexgurr/react-coding-challenges", "weight": 1}, {"from": "Interview-practice", "to": "FreeTymeKiyan/LeetCode-Sol-Res", "weight": 1}, {"from": "Interview-practice", "to": "mre/the-coding-interview", "weight": 1}, {"from": "Interview-practice", "to": "puncsky/system-design-and-architecture", "weight": 1}, {"from": "Interview-practice", "to": "yuzhoujr/leetcode", "weight": 1}, {"from": "Interview-practice", "to": "arpankg/ctci-python-solutions", "weight": 1}, {"from": "Interview-practice", "to": "marcosfede/algorithms", "weight": 1}, {"from": "Interview-practice", "to": "liuyubobobo/Play-with-Algorithm-Interview", "weight": 1}, {"from": "Interview-practice", "to": "bcherny/frontend-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "connor11528/cs-fundamentals", "weight": 1}, {"from": "Interview-practice", "to": "dashvlas/awesome-ios-interview", "weight": 1}, {"from": "Interview-practice", "to": "onthecodepath/iOS-Interview-Questions", "weight": 1}, {"from": "Interview-practice", "to": "kamyu104/LintCode", "weight": 1}, {"from": "Interview-practice", "to": "rampatra/Algorithms-and-Data-Structures-in-Java", "weight": 1}, {"from": "Interview-practice", "to": "Just-A-Visitor/Algorithmic-Pseudocode", "weight": 1}, {"from": "Interview-practice", "to": "alirezadir/machine-learning-interview-enlightener", "weight": 1}, {"from": "Interview-practice", "to": "aershov24/full-stack-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "omonimus1/competitive-programming", "weight": 1}, {"from": "Interview-practice", "to": "stacygohyunsi/algorithms-primer", "weight": 1}, {"from": "Interview-practice", "to": "khan4019/angular-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "karansaxena/STL_Cheat_Sheets", "weight": 1}, {"from": "Interview-practice", "to": "sid24rane/System-Design-Interview-Questions", "weight": 1}, {"from": "Interview-practice", "to": "DivyaGodayal/CoderChef-Kitchen", "weight": 1}, {"from": "Interview-practice", "to": "JiayangWu/LeetCode-Python", "weight": 1}, {"from": "Interview-practice", "to": "brndnmtthws/cracking-the-coding-interview-rust", "weight": 1}, {"from": "Interview-practice", "to": "warycat/rustgym", "weight": 1}, {"from": "Interview-practice", "to": "MahdiMashrur/Awesome-Coding-Interview-Question-Patterns", "weight": 1}, {"from": "Interview-practice", "to": "n3a9/google-foobar", "weight": 1}, {"from": "Interview-practice", "to": "AlgorithmCrackers/Interview-Questions", "weight": 1}, {"from": "Interview-practice", "to": "thundergolfer/interview-with-python", "weight": 1}, {"from": "Interview-practice", "to": "Java-aid/Interview-Preparations", "weight": 1}, {"from": "Interview-practice", "to": "harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI", "weight": 1}, {"from": "Interview-practice", "to": "lesywix/oh-my-python", "weight": 1}, {"from": "Interview-practice", "to": "gdutxiaoxu/AndroidGuide", "weight": 1}, {"from": "Interview-practice", "to": "srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore", "weight": 1}, {"from": "Interview-practice", "to": "rongweihe/CS_Offer", "weight": 1}, {"from": "Interview-practice", "to": "samgh/Byte-by-Byte-Solutions", "weight": 1}, {"from": "Interview-practice", "to": "rongweihe/CPPNotes", "weight": 1}, {"from": "Interview-practice", "to": "r1cc4rdo/daily_coding_problem", "weight": 1}, {"from": "Interview-practice", "to": "javadhme/android-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "yubinbai/leetcode", "weight": 1}, {"from": "Interview-practice", "to": "kumaransg/LLD", "weight": 1}, {"from": "Interview-practice", "to": "shihsyun/codility_lessons", "weight": 1}, {"from": "Interview-practice", "to": "oleg-koval/counter-interview.dev", "weight": 1}, {"from": "Interview-practice", "to": "DenisLitvin/iOS-Interview", "weight": 1}, {"from": "Interview-practice", "to": "Gauthamjm007/Backend-NodeJS-Golang-Interview_QA", "weight": 1}, {"from": "Interview-practice", "to": "yanglr/leetcode-ac", "weight": 1}, {"from": "Interview-practice", "to": "charulagrl/data-structures-and-algorithms", "weight": 1}, {"from": "Interview-practice", "to": "mohammedjasam/Technical-Interview-Guide", "weight": 1}, {"from": "Interview-practice", "to": "sunil12738/frontend-developer-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "usmanovs/Salesforce-Interview-Handbook", "weight": 1}, {"from": "Interview-practice", "to": "luceCoding/Programming-Interview-Questions-in-Python", "weight": 1}, {"from": "Interview-practice", "to": "Kirchhoff-/Android-Interview-Questions", "weight": 1}, {"from": "Interview-practice", "to": "proyecto26/TheJobInterviewGuide", "weight": 1}, {"from": "Interview-practice", "to": "jisungbin/Android-Interview-Study-2022", "weight": 1}, {"from": "Interview-practice", "to": "SaadAAkash/Android-Interview-Essentials", "weight": 1}, {"from": "Interview-practice", "to": "surajr/CodingInterview", "weight": 1}, {"from": "Interview-practice", "to": "WebPredict/angular-2-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "kiwidamien/SQL_practice", "weight": 1}, {"from": "Interview-practice", "to": "sachin-duhan26/COMPETITVE-PROGRAMMING", "weight": 1}, {"from": "Interview-practice", "to": "apoterenko/javascript-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "akashmodak97/Competitive-Coding-and-Interview-Problems", "weight": 1}, {"from": "Interview-practice", "to": "revpwn/JobInterviewAlgorithms", "weight": 1}, {"from": "Interview-practice", "to": "keep-practicing/leetcode-go", "weight": 1}, {"from": "Interview-practice", "to": "dheeraj-2000/dsalgo", "weight": 1}, {"from": "Interview-practice", "to": "NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit", "weight": 1}, {"from": "Interview-practice", "to": "BarstoolSports/fullstack-challenge", "weight": 1}, {"from": "Interview-practice", "to": "algoholics-ntua/algorithms", "weight": 1}, {"from": "Interview-practice", "to": "adityaarakeri/Interview-solved", "weight": 1}, {"from": "Interview-practice", "to": "bezzad/foobar.withgoogle", "weight": 1}, {"from": "Interview-practice", "to": "LearnTeachCode/algorithms-group", "weight": 1}, {"from": "Interview-practice", "to": "Egolper/beginners-tech-interview", "weight": 1}, {"from": "Interview-practice", "to": "ryanmcdermott/katas", "weight": 1}, {"from": "Interview-practice", "to": "hevalhazalkurt/codewars_python_solutions", "weight": 1}, {"from": "Interview-practice", "to": "aershov24/typescript-interview-questions", "weight": 1}, {"from": "Interview-practice", "to": "xiaoyunyang/coding-challenges", "weight": 1}, {"from": "Interview-practice", "to": "tkssharma/hackerrank-full-stack", "weight": 1}, {"from": "Interview-practice", "to": "fatosmorina/machine-learning-exams", "weight": 1}, {"from": "Interview-practice", "to": "IvanLu1024/LeetCode", "weight": 1}]);
 
         // adding nodes and edges to the graph
         data = {nodes: nodes, edges: edges};
@@ -76,6 +154,14 @@
     },
     "physics": {
         "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.2,
+            "damping": 0.09,
+            "nodeDistance": 100,
+            "springConstant": 0.05,
+            "springLength": 200
+        },
+        "solver": "repulsion",
         "stabilization": {
             "enabled": true,
             "fit": true,
@@ -95,6 +181,24 @@
         
 
 
+        
+        network.on("stabilizationProgress", function(params) {
+      		document.getElementById('loadingBar').removeAttribute("style");
+	        var maxWidth = 496;
+	        var minWidth = 20;
+	        var widthFactor = params.iterations/params.total;
+	        var width = Math.max(minWidth,maxWidth * widthFactor);
+
+	        document.getElementById('bar').style.width = width + 'px';
+	        document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+	    });
+	    network.once("stabilizationIterationsDone", function() {
+	        document.getElementById('text').innerHTML = '100%';
+	        document.getElementById('bar').style.width = '496px';
+	        document.getElementById('loadingBar').style.opacity = 0;
+	        // really clean the dom element
+	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+	    });
         
 
         return network;
