@@ -21,3 +21,5 @@ I chose to collect data on interview practice repositories and color code them, 
 
 Use of pyis has allowed for an easy creation of html page. All the libraries and modules used have a special purpose to make the task easy and really efficient. 
 I hope to work on it in the near future to add more functionalities specially user interaction. But I couldn't at the moment due to pressing personal unforseen circumstances. 
+
+*No personal user infomation has been extracted, excpet of public user repository names*
